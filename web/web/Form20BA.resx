@@ -131,7 +131,7 @@
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFUAAABVCAYAAAA49ahaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAARb5JREFUeF7tvQV4VVm279t92sqoonCHYCGBBEggRgxJgoVAIEoSEgJJiAtxd3cn
+        EAAACxABrSO9dQAARb5JREFUeF7tvQV4VVm279t92sqoonCHYCGBBEggRgxJgoVAIEoSEgJJiAtxd3cn
         7m5AggV3t8Ld3V2qfm/uVLpv9+nqPt3n3b7nnnfe+L7xzbXXmkvmfw35j73WnvtX/13E0tLSWl1dnSlT
         pqCoqNilEydOxNzcnO4u/7/8syJArVm4cCGLFi1C0urr67NgwQKWLl36/4Pq7e09yNjYOExY2C4rK6v1
         hYWFv+3e9DfF3t5+gNjnhlAkamRk1KUmJiZdltrZ2Tmmu+v/HPHw8PjtihUrNIRVlQu9LoD4SWJhFhYW
@@ -705,6 +705,24 @@
         8UIxAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

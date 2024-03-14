@@ -293,7 +293,7 @@
             this.MaximumSize = new System.Drawing.Size(656, 629);
             this.MinimumSize = new System.Drawing.Size(656, 629);
             this.Name = "Form7BA";
-            this.Text = "Form7BA";
+            this.Text = "BSBAlogin";
             this.Load += new System.EventHandler(this.Form7BA_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

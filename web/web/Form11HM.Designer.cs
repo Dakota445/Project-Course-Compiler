@@ -293,7 +293,7 @@
             this.MaximumSize = new System.Drawing.Size(656, 629);
             this.MinimumSize = new System.Drawing.Size(656, 629);
             this.Name = "Form11HM";
-            this.Text = "Form11HM";
+            this.Text = "HMlogin";
             this.Load += new System.EventHandler(this.Form11HM_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

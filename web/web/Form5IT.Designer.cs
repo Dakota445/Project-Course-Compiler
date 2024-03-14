@@ -292,7 +292,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form5IT";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
-            this.Text = "Form5";
+            this.Text = "BSITlogin";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

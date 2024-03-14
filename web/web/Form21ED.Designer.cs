@@ -193,7 +193,7 @@
             this.MaximumSize = new System.Drawing.Size(897, 740);
             this.MinimumSize = new System.Drawing.Size(897, 726);
             this.Name = "Form21ED";
-            this.Text = "Form21ED";
+            this.Text = "EDarchieve";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -409,7 +409,7 @@
             this.MaximumSize = new System.Drawing.Size(835, 788);
             this.MinimumSize = new System.Drawing.Size(835, 726);
             this.Name = "Form10ED";
-            this.Text = "Form10BA";
+            this.Text = "EDCC";
             this.Load += new System.EventHandler(this.Form10ED_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

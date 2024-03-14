@@ -193,7 +193,7 @@
             this.MaximumSize = new System.Drawing.Size(897, 740);
             this.MinimumSize = new System.Drawing.Size(897, 726);
             this.Name = "Form22";
-            this.Text = "Form22";
+            this.Text = "HMarchieve";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

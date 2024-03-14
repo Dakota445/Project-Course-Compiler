@@ -403,7 +403,7 @@
             this.MaximumSize = new System.Drawing.Size(835, 788);
             this.MinimumSize = new System.Drawing.Size(835, 726);
             this.Name = "Form8BA";
-            this.Text = "Form8BA";
+            this.Text = "BACC";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

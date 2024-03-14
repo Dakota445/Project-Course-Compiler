@@ -294,7 +294,7 @@
             this.MaximumSize = new System.Drawing.Size(656, 629);
             this.MinimumSize = new System.Drawing.Size(656, 629);
             this.Name = "Form9ED";
-            this.Text = "Form9ED";
+            this.Text = "EDlogin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

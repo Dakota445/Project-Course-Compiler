@@ -408,7 +408,7 @@
             this.MaximumSize = new System.Drawing.Size(835, 788);
             this.MinimumSize = new System.Drawing.Size(835, 726);
             this.Name = "Form3crim";
-            this.Text = "Form3";
+            this.Text = "CRIMCC";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
