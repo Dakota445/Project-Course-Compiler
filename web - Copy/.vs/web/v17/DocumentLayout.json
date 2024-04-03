@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|c:\\users\\asus1001\\desktop\\project-course-compiler\\web - copy\\web\\form3crim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|solutionrelative:web\\form3crim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\form3crim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|solutionrelative:web\\form3crim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\form18crim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|solutionrelative:web\\form18crim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\web.csproj|solutionrelative:web\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3crim.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form3crim.cs",
+              "RelativeDocumentMoniker": "web\\Form3crim.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form3crim.cs",
+              "RelativeToolTip": "web\\Form3crim.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAQwF0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:06:47.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form18CRIM.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form18CRIM.cs",
+              "RelativeDocumentMoniker": "web\\Form18CRIM.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web\\web\\Form18CRIM.cs [Design]",
+              "RelativeToolTip": "..\\web\\web\\Form18CRIM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:05:57.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3crim.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form3crim.cs",
+              "RelativeDocumentMoniker": "web\\Form3crim.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web\\web\\Form3crim.cs [Design]",
+              "RelativeToolTip": "..\\web\\web\\Form3crim.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:05:53.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form1.cs",
+              "RelativeDocumentMoniker": "web\\Form1.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web\\web\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\web\\web\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:51:07.106Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

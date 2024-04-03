@@ -1,0 +1,86 @@
+C:\Users\Administrator\source\repos\web\web\bin\Debug\web.exe.config
+C:\Users\Administrator\source\repos\web\web\bin\Debug\web.exe
+C:\Users\Administrator\source\repos\web\web\bin\Debug\web.pdb
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form1.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Properties.Resources.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.exe
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.pdb
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form3crim.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form5IT.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form2crim.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form6IT.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form7BA.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form8BA.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form11HM.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form12HM.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form9ED.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form10ED.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form13CRIM.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form14IT.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form15BA.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form16ED.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form17.resources
+C:\Users\Administrator\source\repos\web\web\obj\Debug\web.Form18CRIM.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\bin\Debug\web.exe.config
+C:\Users\asus1001\Desktop\File Path Github\web\web\bin\Debug\web.exe
+C:\Users\asus1001\Desktop\File Path Github\web\web\bin\Debug\web.pdb
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.csproj.AssemblyReference.cache
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form1.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form10ED.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form11HM.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form12HM.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form13CRIM.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form14IT.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form15BA.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form16ED.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form17.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form18CRIM.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form19IT.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form20BA.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form21ED.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form22.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form3crim.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form5IT.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form2crim.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form6IT.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form7BA.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form8BA.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Form9ED.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.Properties.Resources.resources
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.csproj.GenerateResource.cache
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.exe
+C:\Users\asus1001\Desktop\File Path Github\web\web\obj\Debug\web.pdb
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\bin\Debug\web.exe.config
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\bin\Debug\web.exe
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\bin\Debug\web.pdb
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.csproj.AssemblyReference.cache
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.HMlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.Properties.Resources.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.csproj.GenerateResource.cache
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.exe
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.pdb
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.ProjectCC.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSBAlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSITlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSCRIMlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSEDPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSEDlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSHMPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSITPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSBAPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSCRIMPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSHMarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSHMcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSEDcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSEDarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSBAcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSBAarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSITcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSITarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSCRIMcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web\web\obj\Debug\web.BSCRIMarchieve.resources
