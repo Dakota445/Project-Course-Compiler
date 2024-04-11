@@ -1,0 +1,30 @@
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\bin\Debug\web.exe.config
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\bin\Debug\web.exe
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\bin\Debug\web.pdb
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\Project Course Compiler.csproj.AssemblyReference.cache
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.ProjectCC.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSEDPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.HMlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSHMPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSCRIMcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSITcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSBAcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSEDcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSHMcompiler.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSCRIMarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSITarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSBAarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSEDarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSHMarchieve.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSCRIMPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSITlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSCRIMlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSITPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSBAlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSBAPcc.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.BSEDlogin.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.Properties.Resources.resources
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\Project Course Compiler.csproj.GenerateResource.cache
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\Project Course Compiler.csproj.CoreCompileInputs.cache
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.exe
+C:\Users\asus1001\Desktop\Project-Course-Compiler\web - Copy\web\obj\Debug\web.pdb
