@@ -86,12 +86,14 @@ namespace web
         {
             BSCRIMcompiler bSCRIMcompiler = new BSCRIMcompiler();
             bSCRIMcompiler.Show();
+            this.Close();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             BSCRIMarchieve bSCRIMarchieve = new BSCRIMarchieve();
             bSCRIMarchieve.Show();
+            this.Close();
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -99,6 +101,11 @@ namespace web
             BSCRIMlogin form2 = new BSCRIMlogin();
             form2.Show();
             this.Close();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -44,6 +44,7 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -67,6 +68,7 @@
             this.button4.Size = new System.Drawing.Size(43, 23);
             this.button4.TabIndex = 126;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // panel1
             // 
@@ -89,23 +91,23 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.richTextBox2.BackColor = System.Drawing.Color.Maroon;
             this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.Location = new System.Drawing.Point(38, 223);
+            this.richTextBox2.Location = new System.Drawing.Point(38, 220);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(85, 480);
+            this.richTextBox2.Size = new System.Drawing.Size(85, 488);
             this.richTextBox2.TabIndex = 123;
-            this.richTextBox2.Text = "BSIT";
+            this.richTextBox2.Text = "";
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Tan;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(38, 114);
+            this.button2.Location = new System.Drawing.Point(25, 105);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 98);
+            this.button2.Size = new System.Drawing.Size(113, 109);
             this.button2.TabIndex = 122;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -175,12 +177,23 @@
             this.Column6.HeaderText = "Download";
             this.Column6.Name = "Column6";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(144, 162);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 39);
+            this.label2.TabIndex = 128;
+            this.label2.Text = "BSIT";
+            // 
             // BSITarchieve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(881, 701);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.panel1);
@@ -219,5 +232,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.Label label2;
     }
 }

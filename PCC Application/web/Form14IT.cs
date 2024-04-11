@@ -16,5 +16,18 @@ namespace web
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSITPcc BSITPcc = new BSITPcc();
+            BSITPcc.Show();
+            this.Close();
+
+        }
     }
 }

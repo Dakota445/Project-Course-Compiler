@@ -58,9 +58,9 @@
             this.button1.BackColor = System.Drawing.Color.Tan;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(246, 292);
+            this.button1.Location = new System.Drawing.Point(253, 283);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 100);
+            this.button1.Size = new System.Drawing.Size(117, 118);
             this.button1.TabIndex = 1;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -71,9 +71,9 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(124, 292);
+            this.button2.Location = new System.Drawing.Point(130, 283);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 100);
+            this.button2.Size = new System.Drawing.Size(117, 118);
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -83,9 +83,9 @@
             this.button3.BackColor = System.Drawing.Color.Tan;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(365, 292);
+            this.button3.Location = new System.Drawing.Point(376, 283);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 100);
+            this.button3.Size = new System.Drawing.Size(117, 118);
             this.button3.TabIndex = 3;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -95,9 +95,9 @@
             this.button4.BackColor = System.Drawing.Color.Tan;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(482, 292);
+            this.button4.Location = new System.Drawing.Point(499, 283);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 100);
+            this.button4.Size = new System.Drawing.Size(117, 118);
             this.button4.TabIndex = 4;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -126,9 +126,9 @@
             this.button6.BackColor = System.Drawing.Color.Tan;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(599, 292);
+            this.button6.Location = new System.Drawing.Point(622, 283);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 100);
+            this.button6.Size = new System.Drawing.Size(117, 118);
             this.button6.TabIndex = 9;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -182,7 +182,7 @@
             this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "ProjectCC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Projectcc";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

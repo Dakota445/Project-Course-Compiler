@@ -16,5 +16,12 @@ namespace web
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSITPcc BSITPcc = new BSITPcc();
+            BSITPcc.Show();
+            this.Close();
+        }
     }
 }

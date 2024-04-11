@@ -26,12 +26,14 @@ namespace web
         {
             BSITcompiler bSITcompiler = new BSITcompiler(); 
             bSITcompiler.Show();
+            this.Close();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             BSITarchieve bSITarchieve  = new BSITarchieve();
             bSITarchieve.Show();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -39,6 +41,11 @@ namespace web
             BSITlogin form5 = new BSITlogin();
             form5.Show();
             this.Close(); 
+        }
+
+        private void BSITPcc_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

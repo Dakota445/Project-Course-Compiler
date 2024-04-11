@@ -51,17 +51,18 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btarchieve = new System.Windows.Forms.Button();
+            this.tbview = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -241,6 +242,7 @@
             this.button3.TabIndex = 25;
             this.button3.Text = "Browse....";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button4
             // 
@@ -259,17 +261,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(256, 20);
             this.dateTimePicker1.TabIndex = 27;
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.Location = new System.Drawing.Point(12, 223);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(89, 527);
-            this.richTextBox2.TabIndex = 29;
-            this.richTextBox2.Text = "CRIM";
             // 
             // panel1
             // 
@@ -331,27 +322,27 @@
             this.button7.Text = "Update";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btarchieve
             // 
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(572, 690);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 37);
-            this.button8.TabIndex = 36;
-            this.button8.Text = "Archive";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btarchieve.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btarchieve.Location = new System.Drawing.Point(572, 690);
+            this.btarchieve.Name = "btarchieve";
+            this.btarchieve.Size = new System.Drawing.Size(75, 37);
+            this.btarchieve.TabIndex = 36;
+            this.btarchieve.Text = "Archive";
+            this.btarchieve.UseVisualStyleBackColor = true;
+            this.btarchieve.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // tbview
             // 
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(691, 690);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 37);
-            this.button9.TabIndex = 37;
-            this.button9.Text = "View";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.tbview.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbview.Location = new System.Drawing.Point(691, 690);
+            this.tbview.Name = "tbview";
+            this.tbview.Size = new System.Drawing.Size(75, 37);
+            this.tbview.TabIndex = 37;
+            this.tbview.Text = "View";
+            this.tbview.UseVisualStyleBackColor = true;
+            this.tbview.Click += new System.EventHandler(this.button9_Click);
             // 
             // textBox3
             // 
@@ -375,23 +366,45 @@
             this.comboBox1.Size = new System.Drawing.Size(276, 36);
             this.comboBox1.TabIndex = 123;
             // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.Navy;
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.Location = new System.Drawing.Point(12, 223);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(97, 527);
+            this.richTextBox2.TabIndex = 151;
+            this.richTextBox2.Text = "";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(124, 143);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(134, 39);
+            this.label8.TabIndex = 156;
+            this.label8.Text = "BSCRIM";
+            // 
             // BSCRIMPcc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(819, 749);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.tbview);
+            this.Controls.Add(this.btarchieve);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -444,16 +457,17 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btarchieve;
+        private System.Windows.Forms.Button tbview;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Label label8;
     }
 }

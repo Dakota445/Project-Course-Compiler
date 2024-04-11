@@ -16,5 +16,12 @@ namespace web
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSCRIMarchieve form18 = new BSCRIMarchieve();
+            form18.Show();
+            this.Close();
+        }
     }
 }

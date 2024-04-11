@@ -16,5 +16,17 @@ namespace web
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSCRIMPcc bSCRIMPcc = new BSCRIMPcc();  
+            bSCRIMPcc.Show();
+            this.Close();
+        }
+
+        private void BSCRIMarchieve_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
