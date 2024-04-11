@@ -58,7 +58,7 @@
             this.button1.BackColor = System.Drawing.Color.Tan;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(119, 292);
+            this.button1.Location = new System.Drawing.Point(246, 292);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 100);
             this.button1.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(243, 292);
+            this.button2.Location = new System.Drawing.Point(124, 292);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 100);
             this.button2.TabIndex = 2;

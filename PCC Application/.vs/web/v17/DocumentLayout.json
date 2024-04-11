@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\",
+  "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\project-course-compiler\\web - copy\\web\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\Form1.cs",
               "RelativeDocumentMoniker": "web\\Form1.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\Project-Course-Compiler\\web - Copy\\web\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\Form1.cs [Design]",
               "RelativeToolTip": "web\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T15:14:18.662Z",
