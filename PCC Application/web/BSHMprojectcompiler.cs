@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSCRIMcompiler : Form
+    public partial class BSHMcompiler : Form
     {
-        public BSCRIMcompiler()
+        public BSHMcompiler()
         {
             InitializeComponent();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            BSCRIMarchieve form18 = new BSCRIMarchieve();
-            form18.Show();
+            BSHMPcc form12 = new BSHMPcc();
+            form12.Show();
             this.Close();
         }
     }

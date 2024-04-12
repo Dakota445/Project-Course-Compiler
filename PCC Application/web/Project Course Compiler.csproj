@@ -47,196 +47,196 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Project Course Compiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Project Course Compiler.Designer.cs">
+      <DependentUpon>Project Course Compiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form10BA.cs">
+    <Compile Include="BSEDcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10BA.Designer.cs">
-      <DependentUpon>Form10BA.cs</DependentUpon>
+    <Compile Include="BSEDcompiler.Designer.cs">
+      <DependentUpon>BSEDcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form11HM.cs">
+    <Compile Include="BSHMlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form11HM.Designer.cs">
-      <DependentUpon>Form11HM.cs</DependentUpon>
+    <Compile Include="BSHMlogin.Designer.cs">
+      <DependentUpon>BSHMlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form12HM.cs">
+    <Compile Include="BSHMcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form12HM.Designer.cs">
-      <DependentUpon>Form12HM.cs</DependentUpon>
+    <Compile Include="BSHMcompiler.Designer.cs">
+      <DependentUpon>BSHMcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form13CRIM.cs">
+    <Compile Include="BSCRIMprojectcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form13CRIM.Designer.cs">
-      <DependentUpon>Form13CRIM.cs</DependentUpon>
+    <Compile Include="BSCRIMprojectcompiler.Designer.cs">
+      <DependentUpon>BSCRIMprojectcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form14IT.cs">
+    <Compile Include="BSITprojectcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form14IT.Designer.cs">
-      <DependentUpon>Form14IT.cs</DependentUpon>
+    <Compile Include="BSITprojectcompiler.Designer.cs">
+      <DependentUpon>BSITprojectcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form15BA.cs">
+    <Compile Include="BSBAprojectcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form15BA.Designer.cs">
-      <DependentUpon>Form15BA.cs</DependentUpon>
+    <Compile Include="BSBAprojectcompiler.Designer.cs">
+      <DependentUpon>BSBAprojectcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form16ED.cs">
+    <Compile Include="BSEDprojectcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form16ED.Designer.cs">
-      <DependentUpon>Form16ED.cs</DependentUpon>
+    <Compile Include="BSEDprojectcompiler.Designer.cs">
+      <DependentUpon>BSEDprojectcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form17.cs">
+    <Compile Include="BSHMprojectcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form17.Designer.cs">
-      <DependentUpon>Form17.cs</DependentUpon>
+    <Compile Include="BSHMprojectcompiler.Designer.cs">
+      <DependentUpon>BSHMprojectcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form18CRIM.cs">
+    <Compile Include="BSCRIMprojectarchive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form18CRIM.Designer.cs">
-      <DependentUpon>Form18CRIM.cs</DependentUpon>
+    <Compile Include="BSCRIMprojectarchive.Designer.cs">
+      <DependentUpon>BSCRIMprojectarchive.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form19IT.cs">
+    <Compile Include="BSITprojectarchive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form19IT.Designer.cs">
-      <DependentUpon>Form19IT.cs</DependentUpon>
+    <Compile Include="BSITprojectarchive.Designer.cs">
+      <DependentUpon>BSITprojectarchive.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form20BA.cs">
+    <Compile Include="BSBAprojectarchive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form20BA.Designer.cs">
-      <DependentUpon>Form20BA.cs</DependentUpon>
+    <Compile Include="BSBAprojectarchive.Designer.cs">
+      <DependentUpon>BSBAprojectarchive.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form21ED.cs">
+    <Compile Include="BSEDprojectarchive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form21ED.Designer.cs">
-      <DependentUpon>Form21ED.cs</DependentUpon>
+    <Compile Include="BSEDprojectarchive.Designer.cs">
+      <DependentUpon>BSEDprojectarchive.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form22.cs">
+    <Compile Include="BSHMprojectarchive.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form22.Designer.cs">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <Compile Include="BSHMprojectarchive.Designer.cs">
+      <DependentUpon>BSHMprojectarchive.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3crim.cs">
+    <Compile Include="BSCRIMcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3crim.Designer.cs">
-      <DependentUpon>Form3crim.cs</DependentUpon>
+    <Compile Include="BSCRIMcompiler.Designer.cs">
+      <DependentUpon>BSCRIMcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5IT.cs">
+    <Compile Include="BSITlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5IT.Designer.cs">
-      <DependentUpon>Form5IT.cs</DependentUpon>
+    <Compile Include="BSITlogin.Designer.cs">
+      <DependentUpon>BSITlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2crim.cs">
+    <Compile Include="BSCRIMlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2crim.Designer.cs">
-      <DependentUpon>Form2crim.cs</DependentUpon>
+    <Compile Include="BSCRIMlogin.Designer.cs">
+      <DependentUpon>BSCRIMlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6IT.cs">
+    <Compile Include="BSITcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6IT.Designer.cs">
-      <DependentUpon>Form6IT.cs</DependentUpon>
+    <Compile Include="BSITcompiler.Designer.cs">
+      <DependentUpon>BSITcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7BA.cs">
+    <Compile Include="BSBAlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7BA.Designer.cs">
-      <DependentUpon>Form7BA.cs</DependentUpon>
+    <Compile Include="BSBAlogin.Designer.cs">
+      <DependentUpon>BSBAlogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8BA.cs">
+    <Compile Include="BSBAcompiler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8BA.Designer.cs">
-      <DependentUpon>Form8BA.cs</DependentUpon>
+    <Compile Include="BSBAcompiler.Designer.cs">
+      <DependentUpon>BSBAcompiler.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9ED.cs">
+    <Compile Include="BSEDlogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9ED.Designer.cs">
-      <DependentUpon>Form9ED.cs</DependentUpon>
+    <Compile Include="BSEDlogin.Designer.cs">
+      <DependentUpon>BSEDlogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Project Course Compiler.resx">
+      <DependentUpon>Project Course Compiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form10BA.resx">
-      <DependentUpon>Form10BA.cs</DependentUpon>
+    <EmbeddedResource Include="BSEDcompiler.resx">
+      <DependentUpon>BSEDcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form11HM.resx">
-      <DependentUpon>Form11HM.cs</DependentUpon>
+    <EmbeddedResource Include="BSHMlogin.resx">
+      <DependentUpon>BSHMlogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form12HM.resx">
-      <DependentUpon>Form12HM.cs</DependentUpon>
+    <EmbeddedResource Include="BSHMcompiler.resx">
+      <DependentUpon>BSHMcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form13CRIM.resx">
-      <DependentUpon>Form13CRIM.cs</DependentUpon>
+    <EmbeddedResource Include="BSCRIMprojectcompiler.resx">
+      <DependentUpon>BSCRIMprojectcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form14IT.resx">
-      <DependentUpon>Form14IT.cs</DependentUpon>
+    <EmbeddedResource Include="BSITprojectcompiler.resx">
+      <DependentUpon>BSITprojectcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form15BA.resx">
-      <DependentUpon>Form15BA.cs</DependentUpon>
+    <EmbeddedResource Include="BSBAprojectcompiler.resx">
+      <DependentUpon>BSBAprojectcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form16ED.resx">
-      <DependentUpon>Form16ED.cs</DependentUpon>
+    <EmbeddedResource Include="BSEDprojectcompiler.resx">
+      <DependentUpon>BSEDprojectcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form17.resx">
-      <DependentUpon>Form17.cs</DependentUpon>
+    <EmbeddedResource Include="BSHMprojectcompiler.resx">
+      <DependentUpon>BSHMprojectcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form18CRIM.resx">
-      <DependentUpon>Form18CRIM.cs</DependentUpon>
+    <EmbeddedResource Include="BSCRIMprojectarchive.resx">
+      <DependentUpon>BSCRIMprojectarchive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form19IT.resx">
-      <DependentUpon>Form19IT.cs</DependentUpon>
+    <EmbeddedResource Include="BSITprojectarchive.resx">
+      <DependentUpon>BSITprojectarchive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form20BA.resx">
-      <DependentUpon>Form20BA.cs</DependentUpon>
+    <EmbeddedResource Include="BSBAprojectarchive.resx">
+      <DependentUpon>BSBAprojectarchive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form21ED.resx">
-      <DependentUpon>Form21ED.cs</DependentUpon>
+    <EmbeddedResource Include="BSEDprojectarchive.resx">
+      <DependentUpon>BSEDprojectarchive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form22.resx">
-      <DependentUpon>Form22.cs</DependentUpon>
+    <EmbeddedResource Include="BSHMprojectarchive.resx">
+      <DependentUpon>BSHMprojectarchive.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3crim.resx">
-      <DependentUpon>Form3crim.cs</DependentUpon>
+    <EmbeddedResource Include="BSCRIMcompiler.resx">
+      <DependentUpon>BSCRIMcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5IT.resx">
-      <DependentUpon>Form5IT.cs</DependentUpon>
+    <EmbeddedResource Include="BSITlogin.resx">
+      <DependentUpon>BSITlogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2crim.resx">
-      <DependentUpon>Form2crim.cs</DependentUpon>
+    <EmbeddedResource Include="BSCRIMlogin.resx">
+      <DependentUpon>BSCRIMlogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6IT.resx">
-      <DependentUpon>Form6IT.cs</DependentUpon>
+    <EmbeddedResource Include="BSITcompiler.resx">
+      <DependentUpon>BSITcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7BA.resx">
-      <DependentUpon>Form7BA.cs</DependentUpon>
+    <EmbeddedResource Include="BSBAlogin.resx">
+      <DependentUpon>BSBAlogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8BA.resx">
-      <DependentUpon>Form8BA.cs</DependentUpon>
+    <EmbeddedResource Include="BSBAcompiler.resx">
+      <DependentUpon>BSBAcompiler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9ED.resx">
-      <DependentUpon>Form9ED.cs</DependentUpon>
+    <EmbeddedResource Include="BSEDlogin.resx">
+      <DependentUpon>BSEDlogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

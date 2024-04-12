@@ -24,8 +24,9 @@ namespace web
 
         private void button8_Click(object sender, EventArgs e)
         {
-            BSEDarchieve bSEDarchieve = new BSEDarchieve();
-            bSEDarchieve.Show();
+            BSEDarchieve BSEDprojectarchive = new BSEDarchieve();
+            BSEDprojectarchive.Show();
+            this.Close();
 
         }
 
@@ -42,7 +43,8 @@ namespace web
         private void button9_Click(object sender, EventArgs e)
         {
             BSEDcompiler bSEDcompiler = new BSEDcompiler();
-            bSEDcompiler.ShowDialog();
+            bSEDcompiler.Show();
+            this.Close ();
 
         }
 

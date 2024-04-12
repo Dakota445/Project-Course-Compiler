@@ -10,17 +10,27 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSITarchieve : Form
+    public partial class BSBAcompiler : Form
     {
-        public BSITarchieve()
+        public BSBAcompiler()
         {
             InitializeComponent();
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
-            BSITPcc BSITPcc = new BSITPcc();
-            BSITPcc.Show();
+            BSBAPcc BSBAcompiler = new BSBAPcc();
+            BSBAcompiler.Show();
             this.Close();
         }
     }

@@ -24,8 +24,8 @@ namespace web
 
         private void button4_Click(object sender, EventArgs e)
         {
-            BSITPcc BSITPcc = new BSITPcc();
-            BSITPcc.Show();
+            BSITPcc form6it = new BSITPcc();
+            form6it.Show();
             this.Close();
 
         }

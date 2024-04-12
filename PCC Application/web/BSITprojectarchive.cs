@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSBAarchieve : Form
+    public partial class BSITarchieve : Form
     {
-        public BSBAarchieve()
+        public BSITarchieve()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSITPcc form6it = new BSITPcc();
+            form6it.Show();
+            this.Close();
         }
     }
 }

@@ -10,31 +10,37 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSBAPcc : Form
+    public partial class BSHMPcc : Form
     {
-        public BSBAPcc()
+        public BSHMPcc()
         {
             InitializeComponent();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            BSBAarchieve bSBAarchieve = new BSBAarchieve();
-            bSBAarchieve.Show();
+            BSHMarchieve bSHMarchieve = new BSHMarchieve();
+            bSHMarchieve.Show();
 
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            BSBAcompiler bSBAcompiler = new BSBAcompiler();
-            bSBAcompiler.ShowDialog();
+            BSHMcompiler bSHMcompiler = new BSHMcompiler();
+            bSHMcompiler.Show();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            BSBAlogin form7 = new BSBAlogin();
-            form7.Show();
+            HMlogin BSHMlogin = new HMlogin();
+            BSHMlogin.Show();
             this.Close();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

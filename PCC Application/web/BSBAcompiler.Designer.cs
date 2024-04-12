@@ -181,6 +181,7 @@
             this.button9.TabIndex = 174;
             this.button9.Text = "View";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
             // 
             // button8
             // 
@@ -191,6 +192,7 @@
             this.button8.TabIndex = 173;
             this.button8.Text = "Archive";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // button7
             // 

@@ -98,8 +98,8 @@ namespace web
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            BSCRIMlogin form2 = new BSCRIMlogin();
-            form2.Show();
+            BSCRIMlogin BSCRIMlogin = new BSCRIMlogin();
+            BSCRIMlogin.Show();
             this.Close();
         }
 

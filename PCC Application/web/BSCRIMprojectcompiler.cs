@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSHMcompiler : Form
+    public partial class BSCRIMcompiler : Form
     {
-        public BSHMcompiler()
+        public BSCRIMcompiler()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSCRIMPcc BSCRIMcompiler = new BSCRIMPcc();
+            BSCRIMcompiler.Show();
+            this.Close();
         }
     }
 }

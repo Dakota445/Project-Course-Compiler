@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSHMarchieve : Form
+    public partial class BSEDcompiler : Form
     {
-        public BSHMarchieve()
+        public BSEDcompiler()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BSEDPcc BSEDcompiler = new BSEDPcc();
+            BSEDcompiler.Show();
+            this.Close();
         }
     }
 }
