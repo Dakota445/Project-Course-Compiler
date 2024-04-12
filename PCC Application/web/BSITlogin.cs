@@ -88,12 +88,39 @@ namespace web
 
             try
             {
+                // Check if any of the parameter values is empty
+                if (string.IsNullOrWhiteSpace(StudentIdBox.Text))
+                {
+                    MessageBox.Show("Please enter Student ID.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(NameBox.Text))
+                {
+                    MessageBox.Show("Please enter Full Name.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(DepartmentBox.Text))
+                {
+                    MessageBox.Show("Please enter Department.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(YearlevelBox.Text))
+                {
+                    MessageBox.Show("Please enter Year Level.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(PassWBox.Text))
+                {
+                    MessageBox.Show("Please enter Password.");
+                    return;
+                }
+
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
                 {
                     connection.Open();
 
                     string query = "INSERT INTO accounts (StudentID, FullName, Department, YearLevel, PassW) " +
-                                   "VALUES (@StudentID, @FullName, @Department, @YearLevel, @PassW)";
+                                    "VALUES (@StudentID, @FullName, @Department, @YearLevel, @PassW)";
 
                     MySqlCommand command = new MySqlCommand(query, connection);
 
@@ -106,6 +133,13 @@ namespace web
                     command.ExecuteNonQuery();
 
                     MessageBox.Show("Account Created Successfully.");
+
+                    // Clear the fields after successful registration
+                    StudentIdBox.Text = "";
+                    NameBox.Text = "";
+                    DepartmentBox.Text = "";
+                    YearlevelBox.Text = "";
+                    PassWBox.Text = "";
                 }
             }
             catch (Exception ex)
@@ -114,5 +148,15 @@ namespace web
             }
         }
 
+
+
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (PassWBox.PasswordChar == '*')
+                PassWBox.PasswordChar = '\0'; // Show the password
+            else
+                PassWBox.PasswordChar = '*'; // Hide the password
+        }
     }
 }
