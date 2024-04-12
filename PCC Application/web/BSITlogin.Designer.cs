@@ -51,6 +51,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,9 +110,9 @@
             // tbuser
             // 
             this.tbuser.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbuser.Location = new System.Drawing.Point(56, 163);
+            this.tbuser.Location = new System.Drawing.Point(68, 163);
             this.tbuser.Name = "tbuser";
-            this.tbuser.Size = new System.Drawing.Size(156, 34);
+            this.tbuser.Size = new System.Drawing.Size(215, 34);
             this.tbuser.TabIndex = 86;
             // 
             // tbpassword
@@ -119,15 +120,16 @@
             this.tbpassword.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbpassword.Location = new System.Drawing.Point(323, 163);
             this.tbpassword.Name = "tbpassword";
+            this.tbpassword.PasswordChar = '*';
             this.tbpassword.Size = new System.Drawing.Size(215, 34);
             this.tbpassword.TabIndex = 85;
             // 
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(148, 309);
+            this.textBox5.Location = new System.Drawing.Point(148, 303);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(135, 34);
+            this.textBox5.Size = new System.Drawing.Size(178, 34);
             this.textBox5.TabIndex = 84;
             // 
             // textBox4
@@ -264,12 +266,23 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button5
+            // 
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(544, 167);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(42, 32);
+            this.button5.TabIndex = 93;
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // BSITlogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(640, 590);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button3);
@@ -329,5 +342,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
     }
 }

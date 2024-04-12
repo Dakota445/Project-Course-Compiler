@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bshmcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bshmcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bshmcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bshmcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bshmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bshmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bscrimlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bscrimlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedprojectarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedprojectarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedprojectarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedprojectarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsedcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsedcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsbalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsbalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,52 +39,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BSHMcompiler.cs",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSHMcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSHMcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSHMcompiler.cs",
-              "RelativeToolTip": "web\\BSHMcompiler.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCMAAAAMAAAA",
+              "Title": "BSITlogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITlogin.cs",
+              "RelativeDocumentMoniker": "web\\BSITlogin.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITlogin.cs [Design]",
+              "RelativeToolTip": "web\\BSITlogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:50:08.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BSHMcompiler.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSHMcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSHMcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSHMcompiler.cs [Design]",
-              "RelativeToolTip": "web\\BSHMcompiler.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:45:15.809Z",
+              "WhenOpened": "2024-04-12T08:12:18.548Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BSEDprojectarchive.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectarchive.cs",
-              "RelativeDocumentMoniker": "web\\BSEDprojectarchive.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectarchive.cs [Design]",
-              "RelativeToolTip": "web\\BSEDprojectarchive.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "BSBAlogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSBAlogin.cs",
+              "RelativeDocumentMoniker": "web\\BSBAlogin.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSBAlogin.cs [Design]",
+              "RelativeToolTip": "web\\BSBAlogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:45:09.247Z",
+              "WhenOpened": "2024-04-12T08:07:45.877Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BSEDlogin.cs",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDlogin.cs",
-              "RelativeDocumentMoniker": "web\\BSEDlogin.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDlogin.cs",
-              "RelativeToolTip": "web\\BSEDlogin.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAowDkAAAAMAAAA",
+              "DocumentIndex": 3,
+              "Title": "BSCRIMlogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSCRIMlogin.cs",
+              "RelativeDocumentMoniker": "web\\BSCRIMlogin.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSCRIMlogin.cs [Design]",
+              "RelativeToolTip": "web\\BSCRIMlogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:45:06.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T08:07:41.664Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -115,70 +81,19 @@
               "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDlogin.cs [Design]",
               "RelativeToolTip": "web\\BSEDlogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:45:04.828Z",
+              "WhenOpened": "2024-04-12T08:07:37.41Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BSEDprojectarchive.cs",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectarchive.cs",
-              "RelativeDocumentMoniker": "web\\BSEDprojectarchive.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectarchive.cs",
-              "RelativeToolTip": "web\\BSEDprojectarchive.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowBUAAAAMAAAA",
+              "DocumentIndex": 1,
+              "Title": "BSHMlogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSHMlogin.cs",
+              "RelativeDocumentMoniker": "web\\BSHMlogin.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSHMlogin.cs [Design]",
+              "RelativeToolTip": "web\\BSHMlogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:45:10.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BSEDprojectcompiler.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSEDprojectcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectcompiler.cs [Design]",
-              "RelativeToolTip": "web\\BSEDprojectcompiler.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:32:59.755Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BSEDprojectcompiler.cs",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSEDprojectcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDprojectcompiler.cs",
-              "RelativeToolTip": "web\\BSEDprojectcompiler.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAxwBUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:44:51.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BSEDcompiler.cs",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSEDcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDcompiler.cs",
-              "RelativeToolTip": "web\\BSEDcompiler.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowD4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:45:01.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BSEDcompiler.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSEDcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSEDcompiler.cs [Design]",
-              "RelativeToolTip": "web\\BSEDcompiler.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:44:56.752Z",
+              "WhenOpened": "2024-04-12T08:07:34.175Z",
               "EditorCaption": " [Design]"
             }
           ]

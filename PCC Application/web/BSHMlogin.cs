@@ -59,5 +59,13 @@ namespace web
             }
             
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (tbpassword.PasswordChar == '*')
+                tbpassword.PasswordChar = '\0'; // Show the password
+            else
+                tbpassword.PasswordChar = '*'; // Hide the password
+        }
     }
 }
