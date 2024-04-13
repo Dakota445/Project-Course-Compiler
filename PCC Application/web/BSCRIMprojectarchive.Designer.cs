@@ -45,6 +45,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.DELETEbtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -123,7 +125,7 @@
             this.Column6});
             this.dataGridView1.Location = new System.Drawing.Point(195, 223);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(648, 451);
+            this.dataGridView1.Size = new System.Drawing.Size(641, 370);
             this.dataGridView1.TabIndex = 110;
             // 
             // Column3
@@ -187,12 +189,32 @@
             this.richTextBox2.TabIndex = 120;
             this.richTextBox2.Text = "";
             // 
+            // DELETEbtn
+            // 
+            this.DELETEbtn.Location = new System.Drawing.Point(637, 629);
+            this.DELETEbtn.Name = "DELETEbtn";
+            this.DELETEbtn.Size = new System.Drawing.Size(101, 38);
+            this.DELETEbtn.TabIndex = 141;
+            this.DELETEbtn.Text = "DELETE";
+            this.DELETEbtn.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(508, 629);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 38);
+            this.button1.TabIndex = 140;
+            this.button1.Text = "RETRIEVE";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // BSCRIMarchieve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(881, 701);
+            this.Controls.Add(this.DELETEbtn);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -234,5 +256,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Button DELETEbtn;
+        private System.Windows.Forms.Button button1;
     }
 }

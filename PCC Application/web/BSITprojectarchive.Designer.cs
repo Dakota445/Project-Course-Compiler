@@ -45,6 +45,8 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
+            this.Retrievebtn = new System.Windows.Forms.Button();
+            this.DELETEbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -144,7 +146,7 @@
             this.Column6});
             this.dataGridView1.Location = new System.Drawing.Point(195, 223);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(648, 451);
+            this.dataGridView1.Size = new System.Drawing.Size(641, 370);
             this.dataGridView1.TabIndex = 119;
             // 
             // Column3
@@ -187,12 +189,32 @@
             this.label2.TabIndex = 128;
             this.label2.Text = "BSIT";
             // 
+            // Retrievebtn
+            // 
+            this.Retrievebtn.Location = new System.Drawing.Point(508, 628);
+            this.Retrievebtn.Name = "Retrievebtn";
+            this.Retrievebtn.Size = new System.Drawing.Size(101, 38);
+            this.Retrievebtn.TabIndex = 158;
+            this.Retrievebtn.Text = "RETRIEVE";
+            this.Retrievebtn.UseVisualStyleBackColor = true;
+            // 
+            // DELETEbtn
+            // 
+            this.DELETEbtn.Location = new System.Drawing.Point(637, 628);
+            this.DELETEbtn.Name = "DELETEbtn";
+            this.DELETEbtn.Size = new System.Drawing.Size(101, 38);
+            this.DELETEbtn.TabIndex = 159;
+            this.DELETEbtn.Text = "DELETE";
+            this.DELETEbtn.UseVisualStyleBackColor = true;
+            // 
             // BSITarchieve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(881, 701);
+            this.Controls.Add(this.DELETEbtn);
+            this.Controls.Add(this.Retrievebtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
@@ -233,5 +255,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Retrievebtn;
+        private System.Windows.Forms.Button DELETEbtn;
     }
 }

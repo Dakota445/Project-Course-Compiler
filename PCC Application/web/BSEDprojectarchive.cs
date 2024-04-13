@@ -23,5 +23,20 @@ namespace web
             BSEDcompiler.Show();
             this.Close();
         }
+
+        private void BSEDarchieve_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DELETEbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

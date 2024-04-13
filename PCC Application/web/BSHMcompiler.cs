@@ -42,5 +42,10 @@ namespace web
         {
 
         }
+
+        private void BSHMPcc_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

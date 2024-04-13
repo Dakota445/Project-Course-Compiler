@@ -45,6 +45,8 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label2 = new System.Windows.Forms.Label();
+            this.Retievebtn = new System.Windows.Forms.Button();
+            this.DELETbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -142,9 +144,9 @@
             this.Column1,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(195, 223);
+            this.dataGridView1.Location = new System.Drawing.Point(184, 218);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(648, 451);
+            this.dataGridView1.Size = new System.Drawing.Size(641, 370);
             this.dataGridView1.TabIndex = 128;
             // 
             // Column3
@@ -187,12 +189,32 @@
             this.label2.TabIndex = 137;
             this.label2.Text = "BSBA";
             // 
+            // Retievebtn
+            // 
+            this.Retievebtn.Location = new System.Drawing.Point(508, 637);
+            this.Retievebtn.Name = "Retievebtn";
+            this.Retievebtn.Size = new System.Drawing.Size(101, 38);
+            this.Retievebtn.TabIndex = 138;
+            this.Retievebtn.Text = "RETRIEVE";
+            this.Retievebtn.UseVisualStyleBackColor = true;
+            // 
+            // DELETbtn
+            // 
+            this.DELETbtn.Location = new System.Drawing.Point(637, 637);
+            this.DELETbtn.Name = "DELETbtn";
+            this.DELETbtn.Size = new System.Drawing.Size(101, 38);
+            this.DELETbtn.TabIndex = 139;
+            this.DELETbtn.Text = "DELETE";
+            this.DELETbtn.UseVisualStyleBackColor = true;
+            // 
             // BSBAarchieve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(881, 701);
+            this.Controls.Add(this.DELETbtn);
+            this.Controls.Add(this.Retievebtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
@@ -233,5 +255,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Retievebtn;
+        private System.Windows.Forms.Button DELETbtn;
     }
 }

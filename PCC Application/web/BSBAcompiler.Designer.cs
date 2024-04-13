@@ -43,7 +43,6 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
@@ -93,7 +92,7 @@
             this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox2.Location = new System.Drawing.Point(13, 223);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(89, 531);
+            this.richTextBox2.Size = new System.Drawing.Size(89, 466);
             this.richTextBox2.TabIndex = 69;
             this.richTextBox2.Text = "";
             // 
@@ -175,70 +174,63 @@
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(672, 687);
+            this.button9.Location = new System.Drawing.Point(818, 628);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 37);
             this.button9.TabIndex = 174;
-            this.button9.Text = "View";
+            this.button9.Text = "VIEW";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click_1);
             // 
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(557, 687);
+            this.button8.Location = new System.Drawing.Point(818, 561);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 37);
             this.button8.TabIndex = 173;
-            this.button8.Text = "Archive";
+            this.button8.Text = "ARCHIVE";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(227, 687);
+            this.button7.Location = new System.Drawing.Point(818, 435);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 37);
             this.button7.TabIndex = 172;
-            this.button7.Text = "Update";
+            this.button7.Text = "UPDATE";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(331, 687);
+            this.button6.Location = new System.Drawing.Point(818, 499);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 37);
             this.button6.TabIndex = 171;
-            this.button6.Text = "Edit";
+            this.button6.Text = "EDIT";
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(442, 687);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 37);
-            this.button5.TabIndex = 170;
-            this.button5.Text = "Delete";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(130, 687);
+            this.button1.Location = new System.Drawing.Point(818, 381);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 37);
             this.button1.TabIndex = 169;
-            this.button1.Text = "Add";
+            this.button1.Text = "ADD";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(130, 650);
+            this.button3.Location = new System.Drawing.Point(144, 634);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(102, 31);
             this.button3.TabIndex = 157;
@@ -386,14 +378,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(819, 749);
+            this.ClientSize = new System.Drawing.Size(931, 691);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.dateTimePicker1);
@@ -415,11 +406,12 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
-            this.MaximumSize = new System.Drawing.Size(835, 788);
-            this.MinimumSize = new System.Drawing.Size(835, 726);
+            this.MaximumSize = new System.Drawing.Size(947, 730);
+            this.MinimumSize = new System.Drawing.Size(947, 730);
             this.Name = "BSBAPcc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BSBAPcc";
+            this.Text = "aa";
+            this.Load += new System.EventHandler(this.BSBAPcc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -443,7 +435,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;

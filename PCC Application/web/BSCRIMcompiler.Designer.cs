@@ -53,16 +53,15 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.btarchieve = new System.Windows.Forms.Button();
-            this.tbview = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -77,7 +76,7 @@
             this.Column1,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(124, 223);
+            this.dataGridView1.Location = new System.Drawing.Point(133, 223);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(648, 155);
             this.dataGridView1.TabIndex = 1;
@@ -281,69 +280,6 @@
             this.label7.TabIndex = 30;
             this.label7.Text = "PROJECT COURSE COMPILER";
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(125, 690);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 37);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(455, 690);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 37);
-            this.button5.TabIndex = 33;
-            this.button5.Text = "Delete";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(334, 690);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 37);
-            this.button6.TabIndex = 34;
-            this.button6.Text = "Edit";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click_1);
-            // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(230, 690);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 37);
-            this.button7.TabIndex = 35;
-            this.button7.Text = "Update";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // btarchieve
-            // 
-            this.btarchieve.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btarchieve.Location = new System.Drawing.Point(572, 690);
-            this.btarchieve.Name = "btarchieve";
-            this.btarchieve.Size = new System.Drawing.Size(75, 37);
-            this.btarchieve.TabIndex = 36;
-            this.btarchieve.Text = "Archive";
-            this.btarchieve.UseVisualStyleBackColor = true;
-            this.btarchieve.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // tbview
-            // 
-            this.tbview.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbview.Location = new System.Drawing.Point(691, 690);
-            this.tbview.Name = "tbview";
-            this.tbview.Size = new System.Drawing.Size(75, 37);
-            this.tbview.TabIndex = 37;
-            this.tbview.Text = "View";
-            this.tbview.UseVisualStyleBackColor = true;
-            this.tbview.Click += new System.EventHandler(this.button9_Click);
-            // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -387,22 +323,71 @@
             this.label8.TabIndex = 156;
             this.label8.Text = "BSCRIM";
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(825, 382);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 37);
+            this.button5.TabIndex = 175;
+            this.button5.Text = "ADD";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(825, 500);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 37);
+            this.button10.TabIndex = 176;
+            this.button10.Text = "EDIT";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(825, 436);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 37);
+            this.button11.TabIndex = 177;
+            this.button11.Text = "UPDATE";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(825, 562);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 37);
+            this.button12.TabIndex = 178;
+            this.button12.Text = "ARCHIVE";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(825, 629);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 37);
+            this.button13.TabIndex = 179;
+            this.button13.Text = "VIEW";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
             // BSCRIMPcc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(819, 749);
+            this.ClientSize = new System.Drawing.Size(931, 691);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.tbview);
-            this.Controls.Add(this.btarchieve);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dateTimePicker1);
@@ -421,8 +406,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView1);
-            this.MaximumSize = new System.Drawing.Size(835, 788);
-            this.MinimumSize = new System.Drawing.Size(835, 726);
+            this.MaximumSize = new System.Drawing.Size(947, 730);
+            this.MinimumSize = new System.Drawing.Size(947, 730);
             this.Name = "BSCRIMPcc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BSCRIMPcc";
@@ -459,15 +444,14 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button btarchieve;
-        private System.Windows.Forms.Button tbview;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
     }
 }

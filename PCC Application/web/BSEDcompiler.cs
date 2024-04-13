@@ -64,5 +64,25 @@ namespace web
             form1.Show();
             this.Close(); 
         }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
