@@ -36,11 +36,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbuser = new System.Windows.Forms.TextBox();
             this.tbpassword = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.StudentIdBox = new System.Windows.Forms.TextBox();
+            this.NameBox = new System.Windows.Forms.TextBox();
+            this.DepartmentBox = new System.Windows.Forms.TextBox();
+            this.YearlevelBox = new System.Windows.Forms.TextBox();
+            this.PassWBox = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -52,6 +52,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,6 +78,7 @@
             this.button3.TabIndex = 111;
             this.button3.Text = "Register";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -124,45 +126,46 @@
             this.tbpassword.Size = new System.Drawing.Size(215, 34);
             this.tbpassword.TabIndex = 106;
             // 
-            // textBox5
+            // StudentIdBox
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(148, 309);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(135, 34);
-            this.textBox5.TabIndex = 105;
+            this.StudentIdBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentIdBox.Location = new System.Drawing.Point(148, 309);
+            this.StudentIdBox.Name = "StudentIdBox";
+            this.StudentIdBox.Size = new System.Drawing.Size(135, 34);
+            this.StudentIdBox.TabIndex = 105;
             // 
-            // textBox4
+            // NameBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(148, 357);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(227, 34);
-            this.textBox4.TabIndex = 104;
+            this.NameBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameBox.Location = new System.Drawing.Point(148, 357);
+            this.NameBox.Name = "NameBox";
+            this.NameBox.Size = new System.Drawing.Size(227, 34);
+            this.NameBox.TabIndex = 104;
             // 
-            // textBox3
+            // DepartmentBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(148, 412);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(227, 34);
-            this.textBox3.TabIndex = 103;
+            this.DepartmentBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DepartmentBox.Location = new System.Drawing.Point(148, 412);
+            this.DepartmentBox.Name = "DepartmentBox";
+            this.DepartmentBox.Size = new System.Drawing.Size(227, 34);
+            this.DepartmentBox.TabIndex = 103;
             // 
-            // textBox2
+            // YearlevelBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(148, 460);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(227, 34);
-            this.textBox2.TabIndex = 102;
+            this.YearlevelBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YearlevelBox.Location = new System.Drawing.Point(148, 460);
+            this.YearlevelBox.Name = "YearlevelBox";
+            this.YearlevelBox.Size = new System.Drawing.Size(227, 34);
+            this.YearlevelBox.TabIndex = 102;
             // 
-            // textBox1
+            // PassWBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(148, 518);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 34);
-            this.textBox1.TabIndex = 101;
+            this.PassWBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PassWBox.Location = new System.Drawing.Point(148, 518);
+            this.PassWBox.Name = "PassWBox";
+            this.PassWBox.PasswordChar = '*';
+            this.PassWBox.Size = new System.Drawing.Size(227, 34);
+            this.PassWBox.TabIndex = 101;
             // 
             // pictureBox2
             // 
@@ -276,12 +279,23 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.Location = new System.Drawing.Point(381, 522);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(42, 32);
+            this.button6.TabIndex = 115;
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // BSBAlogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(640, 590);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
@@ -291,11 +305,11 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tbuser);
             this.Controls.Add(this.tbpassword);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.StudentIdBox);
+            this.Controls.Add(this.NameBox);
+            this.Controls.Add(this.DepartmentBox);
+            this.Controls.Add(this.YearlevelBox);
+            this.Controls.Add(this.PassWBox);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -326,11 +340,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox tbuser;
         private System.Windows.Forms.TextBox tbpassword;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox StudentIdBox;
+        private System.Windows.Forms.TextBox NameBox;
+        private System.Windows.Forms.TextBox DepartmentBox;
+        private System.Windows.Forms.TextBox YearlevelBox;
+        private System.Windows.Forms.TextBox PassWBox;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -342,5 +356,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

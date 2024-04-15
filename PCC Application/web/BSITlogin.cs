@@ -37,7 +37,7 @@ namespace web
                 {
                     connection.Open();
 
-                    string query = "SELECT COUNT(*) FROM accounts WHERE StudentID = @StudentID AND PassW = @Password";
+                    string query = "SELECT COUNT(*) FROM bsit WHERE StudentID = @StudentID AND PassW = @Password";
 
                     MySqlCommand command = new MySqlCommand(query, connection);
                     command.Parameters.AddWithValue("@StudentID", studentID);
@@ -47,6 +47,7 @@ namespace web
 
                     if (count > 0)
                     {
+                        MessageBox.Show("Login successful!");
                         BSITPcc bSITPcc = new BSITPcc();
                         bSITPcc.Show();
                         this.Close();
@@ -91,27 +92,27 @@ namespace web
                 // Check if any of the parameter values is empty
                 if (string.IsNullOrWhiteSpace(StudentIdBox.Text))
                 {
-                    MessageBox.Show("Please enter Student ID.");
+                    MessageBox.Show("Please enter your Student ID.");
                     return;
                 }
                 else if (string.IsNullOrWhiteSpace(NameBox.Text))
                 {
-                    MessageBox.Show("Please enter Full Name.");
+                    MessageBox.Show("Please enter your Full Name.");
                     return;
                 }
                 else if (string.IsNullOrWhiteSpace(DepartmentBox.Text))
                 {
-                    MessageBox.Show("Please enter Department.");
+                    MessageBox.Show("Please enter your  Department.");
                     return;
                 }
                 else if (string.IsNullOrWhiteSpace(YearlevelBox.Text))
                 {
-                    MessageBox.Show("Please enter Year Level.");
+                    MessageBox.Show("Please enter your Year Level.");
                     return;
                 }
                 else if (string.IsNullOrWhiteSpace(PassWBox.Text))
                 {
-                    MessageBox.Show("Please enter Password.");
+                    MessageBox.Show("Please enter your Password.");
                     return;
                 }
 
@@ -119,7 +120,7 @@ namespace web
                 {
                     connection.Open();
 
-                    string query = "INSERT INTO accounts (StudentID, FullName, Department, YearLevel, PassW) " +
+                    string query = "INSERT INTO bsit (StudentID, FullName, Department, YearLevel, PassW) " +
                                     "VALUES (@StudentID, @FullName, @Department, @YearLevel, @PassW)";
 
                     MySqlCommand command = new MySqlCommand(query, connection);

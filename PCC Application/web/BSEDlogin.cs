@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,33 +25,43 @@ namespace web
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(tbuser.Text))
-            {
-                MessageBox.Show("Please fill out student id");
-            }
-            else if (string.IsNullOrEmpty(tbpassword.Text))
-            {
-                MessageBox.Show("Please fill out password");
-            }
-            else if (tbuser.Text.Contains("c220140") && tbpassword.Text.Contains("12760290063"))
-            {
 
-                MessageBox.Show("LOGIN SUCCESSFUL");
-                tbuser.Clear();
-                tbpassword.Clear();
+            string connectionString = "Server=localhost;Database=pccdatabase;Uid=root;Pwd=123456;";
+            string studentID = tbuser.Text;
+            string password = tbpassword.Text;
 
-                BSEDPcc bSEDPcc = new BSEDPcc();
-                bSEDPcc.Show();
-                this.Close();
-            }
-            else
+            try
             {
-                MessageBox.Show("WRONG USERNAME OR PASSWORD!!!", "MESSAGE", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
 
-                tbuser.Clear();
-                tbpassword.Clear();
+                    string query = "SELECT COUNT(*) FROM bsed WHERE StudentID = @StudentID AND PassW = @Password";
+
+                    MySqlCommand command = new MySqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@StudentID", studentID);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    int count = Convert.ToInt32(command.ExecuteScalar());
+
+                    if (count > 0)
+                    {
+                        MessageBox.Show("Login successful!");
+                        BSEDPcc BSEDcompiler = new BSEDPcc();
+                        BSEDcompiler.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Invalid username or password.");
+                    }
+                }
             }
-           
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,6 +77,80 @@ namespace web
                 tbpassword.PasswordChar = '\0'; // Show the password
             else
                 tbpassword.PasswordChar = '*'; // Hide the password
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Server=localhost;Database=pccdatabase;Uid=root;Pwd=123456;";
+
+            try
+            {
+                // Check if any of the parameter values is empty
+                if (string.IsNullOrWhiteSpace(StudentIdBox.Text))
+                {
+                    MessageBox.Show("Please enter your Student ID.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(NameBox.Text))
+                {
+                    MessageBox.Show("Please enter your Full Name.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(DepartmentBox.Text))
+                {
+                    MessageBox.Show("Please enter your Department.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(YearlevelBox.Text))
+                {
+                    MessageBox.Show("Please enter your Year Level.");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(PassWBox.Text))
+                {
+                    MessageBox.Show("Please enter your Password.");
+                    return;
+                }
+
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    string query = "INSERT INTO bsed (StudentID, FullName, Department, YearLevel, PassW) " +
+                                    "VALUES (@StudentID, @FullName, @Department, @YearLevel, @PassW)";
+
+                    MySqlCommand command = new MySqlCommand(query, connection);
+
+                    command.Parameters.AddWithValue("@StudentID", StudentIdBox.Text);
+                    command.Parameters.AddWithValue("@FullName", NameBox.Text);
+                    command.Parameters.AddWithValue("@Department", DepartmentBox.Text);
+                    command.Parameters.AddWithValue("@YearLevel", YearlevelBox.Text);
+                    command.Parameters.AddWithValue("@PassW", PassWBox.Text);
+
+                    command.ExecuteNonQuery();
+
+                    MessageBox.Show("Account Created Successfully.");
+
+                    // Clear the fields after successful registration
+                    StudentIdBox.Text = "";
+                    NameBox.Text = "";
+                    DepartmentBox.Text = "";
+                    YearlevelBox.Text = "";
+                    PassWBox.Text = "";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (PassWBox.PasswordChar == '*')
+                PassWBox.PasswordChar = '\0'; // Show the password
+            else
+                PassWBox.PasswordChar = '*'; // Hide the password
         }
     }
 }
