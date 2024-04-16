@@ -39,13 +39,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtYearLevel = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDescription = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTitle = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -54,8 +54,8 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button3 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtuploadas = new System.Windows.Forms.ComboBox();
+            this.txtFileType = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -112,7 +112,6 @@
             this.button4.Size = new System.Drawing.Size(43, 23);
             this.button4.TabIndex = 46;
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label6
             // 
@@ -166,13 +165,13 @@
             this.pictureBox1.TabIndex = 40;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox4
+            // txtYearLevel
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(497, 499);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(276, 34);
-            this.textBox4.TabIndex = 39;
+            this.txtYearLevel.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtYearLevel.Location = new System.Drawing.Point(497, 499);
+            this.txtYearLevel.Name = "txtYearLevel";
+            this.txtYearLevel.Size = new System.Drawing.Size(276, 34);
+            this.txtYearLevel.TabIndex = 39;
             // 
             // label4
             // 
@@ -194,13 +193,13 @@
             this.label3.TabIndex = 37;
             this.label3.Text = "Date:";
             // 
-            // textBox2
+            // txtDescription
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(497, 412);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(276, 34);
-            this.textBox2.TabIndex = 36;
+            this.txtDescription.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescription.Location = new System.Drawing.Point(497, 412);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(276, 34);
+            this.txtDescription.TabIndex = 36;
             // 
             // label2
             // 
@@ -222,13 +221,13 @@
             this.label1.TabIndex = 34;
             this.label1.Text = "Project Title:";
             // 
-            // textBox1
+            // txtTitle
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(138, 412);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 34);
-            this.textBox1.TabIndex = 33;
+            this.txtTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTitle.Location = new System.Drawing.Point(138, 412);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(275, 34);
+            this.txtTitle.TabIndex = 33;
             // 
             // dataGridView1
             // 
@@ -285,28 +284,31 @@
             this.button3.TabIndex = 26;
             this.button3.Text = "Browse....";
             this.button3.UseVisualStyleBackColor = false;
+
             // 
-            // comboBox2
+            // txtuploadas
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.txtuploadas.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuploadas.FormattingEnabled = true;
+            this.txtuploadas.Items.AddRange(new object[] {
             "PDF",
             "WORD",
             "POWER-POINT",
-            "EXCEL"});
-            this.comboBox2.Location = new System.Drawing.Point(497, 592);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(276, 36);
-            this.comboBox2.TabIndex = 123;
+            "EXCEL",
+            "TXT",
+            "DOCS"});
+            this.txtuploadas.Location = new System.Drawing.Point(497, 592);
+            this.txtuploadas.Name = "txtuploadas";
+            this.txtuploadas.Size = new System.Drawing.Size(276, 36);
+            this.txtuploadas.TabIndex = 123;
             // 
-            // textBox3
+            // txtFileType
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(138, 594);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(276, 34);
-            this.textBox3.TabIndex = 124;
+            this.txtFileType.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFileType.Location = new System.Drawing.Point(138, 594);
+            this.txtFileType.Name = "txtFileType";
+            this.txtFileType.Size = new System.Drawing.Size(276, 34);
+            this.txtFileType.TabIndex = 124;
             // 
             // label8
             // 
@@ -380,8 +382,8 @@
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.txtFileType);
+            this.Controls.Add(this.txtuploadas);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
@@ -393,16 +395,16 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtYearLevel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.dataGridView1);
             this.MaximumSize = new System.Drawing.Size(947, 730);
-            this.MinimumSize = new System.Drawing.Size(947, 730);
+            this.MinimumSize = new System.Drawing.Size(947, 726);
             this.Name = "BSITPcc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BSITPcc";
@@ -426,13 +428,13 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtYearLevel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTitle;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
@@ -441,8 +443,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ComboBox txtuploadas;
+        private System.Windows.Forms.TextBox txtFileType;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button10;
