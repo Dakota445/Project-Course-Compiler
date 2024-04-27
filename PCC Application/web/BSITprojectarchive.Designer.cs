@@ -63,7 +63,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Tan;
+            this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Location = new System.Drawing.Point(13, 12);
             this.button4.Name = "button4";
@@ -83,7 +83,6 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Tan;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(291, 142);
             this.label7.Name = "label7";
@@ -104,7 +103,6 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Tan;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.Location = new System.Drawing.Point(25, 105);
@@ -115,7 +113,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.Color.Tan;
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(441, 12);
@@ -211,7 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Tan;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(881, 701);
             this.Controls.Add(this.DELETEbtn);
             this.Controls.Add(this.Retrievebtn);

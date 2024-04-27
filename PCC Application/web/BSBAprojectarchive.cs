@@ -23,5 +23,15 @@ namespace web
             BSBAcompiler.Show();
             this.Close();
         }
+
+        private void BSBAarchieve_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
