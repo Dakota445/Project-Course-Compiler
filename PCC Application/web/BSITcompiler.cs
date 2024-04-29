@@ -21,101 +21,54 @@ namespace web
             connection = new MySqlConnection(connectionString);
         }
 
-        private void BSITPcc_Load(object sender, EventArgs e)
+
+    
+   
+        
+
+        private void button14_Click_1(object sender, EventArgs e)
         {
-            LoadDataGrid();
+            BSITcompileprojects BSITcompileprojects = new BSITcompileprojects();
+            BSITcompileprojects.Show();
+            this.Hide();
         }
 
-        private void LoadDataGrid()
+        private void button4_Click(object sender, EventArgs e)
         {
-            try
-            {
-                using (MySqlConnection conn = new MySqlConnection(connectionString))
-                {
-                    string sql = "SELECT * FROM bsitcompiler";
-                    MySqlDataAdapter dataAdapter = new MySqlDataAdapter(sql, conn);
-                    DataSet ds = new DataSet();
 
-                    conn.Open();
-                    dataAdapter.Fill(ds);
-                    conn.Close();
-
-                    dataGridView1.DataSource = ds.Tables[0];
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (string.IsNullOrWhiteSpace(txtTitle.Text) || string.IsNullOrWhiteSpace(txtDescription.Text) ||
-                    string.IsNullOrWhiteSpace(dateTimePicker1.Text) || string.IsNullOrWhiteSpace(txtYearLevel.Text) ||
-                    string.IsNullOrWhiteSpace(txtFileType.Text) || string.IsNullOrWhiteSpace(txtuploadas.Text))
-                {
-                    MessageBox.Show("Please fill in all fields.");
-                    return;
-                }
-
-                connection.Open();
-
-                string query = "INSERT INTO bsitcompiler (Project_Title, Project_Description, Date, YearLevel, File_type, Upload_as) " +
-                               "VALUES (@Project_Title, @Project_Description, @Date, @YearLevel, @File_type, @Upload_as)";
-
-                MySqlCommand command = new MySqlCommand(query, connection);
-
-                command.Parameters.AddWithValue("@Project_Title", txtTitle.Text);
-                command.Parameters.AddWithValue("@Project_Description", txtDescription.Text);
-                command.Parameters.AddWithValue("@Date", dateTimePicker1.Value);
-                command.Parameters.AddWithValue("@YearLevel", txtYearLevel.Text);
-                command.Parameters.AddWithValue("@File_type", txtFileType.Text);
-                command.Parameters.AddWithValue("@Upload_as", txtuploadas.Text);
-
-                command.ExecuteNonQuery();
-
-                MessageBox.Show("Data inserted successfully.");
-
-                ClearInputFields();
-
-                LoadDataGrid();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
-            finally
-            {
-                connection.Close();
-            }
+            BSITlogin BSITlogin = new BSITlogin();
+            BSITlogin.Show();
+            this.Hide();
         }
 
-        private void ClearInputFields()
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            txtTitle.Text = "";
-            txtDescription.Text = "";
-            dateTimePicker1.Text = "";
-            txtYearLevel.Text = "";
-            txtFileType.Text = "";
-            txtuploadas.Text = "";
+            BSITlogin BSITlogin = new BSITlogin();
+            BSITlogin.Show();
+            this.Hide();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BSITPcc_FormClosing(object sender, FormClosingEventArgs e)
         {
-            OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.Multiselect = true;
-            openFileDialog.Filter = "All files (*.*)|*.*|PDF files (*.pdf)|*.pdf|Word documents (*.doc;*.docx)|*.doc;*.docx|Text files (*.txt)|*.txt|PowerPoint presentations (*.ppt;*.pptx)|*.ppt;*.pptx|Excel files (*.xls;*.xlsx)|*.xls;*.xlsx";
+            Application.Exit();
+        }
 
-            if (openFileDialog.ShowDialog() == DialogResult.OK)
-            {
-                foreach (string filename in openFileDialog.FileNames)
-                {
-                    txtFileType.AppendText(filename + Environment.NewLine);
-                }
-            }
+        private void button11_Click(object sender, EventArgs e)
+        {
+            BSITarchieve BSITarchieve = new BSITarchieve();
+            BSITarchieve.Show();
+            this.Hide();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            BSITcompiler BSITcompiler = new BSITcompiler();
+            BSITcompiler.Show();
+            this.Hide();    
         }
 
         // Other event handlers...

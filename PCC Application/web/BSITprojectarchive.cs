@@ -23,5 +23,12 @@ namespace web
             form6it.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BSITPcc form6it = new BSITPcc();
+            form6it.Show();
+            this.Close();
+        }
     }
 }

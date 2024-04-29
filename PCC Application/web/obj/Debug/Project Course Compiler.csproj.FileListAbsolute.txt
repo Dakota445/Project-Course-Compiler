@@ -223,3 +223,5 @@ C:\Users\SRCB-IT-ADMIN\Documents\GitHub\Project-Course-Compiler\PCC Application\
 C:\Users\SRCB-IT-ADMIN\Documents\GitHub\Project-Course-Compiler\PCC Application\web\obj\Debug\web.exe
 C:\Users\SRCB-IT-ADMIN\Documents\GitHub\Project-Course-Compiler\PCC Application\web\obj\Debug\web.pdb
 >>>>>>> a0bb946dbdbf5e12d2f1b51600f13928ea6e2813
+C:\Users\asus1001\Desktop\File Path Github\PCC Application\web\obj\Debug\web.BSITRegistration.resources
+C:\Users\asus1001\Desktop\File Path Github\PCC Application\web\obj\Debug\web.BSITcompileprojects.resources

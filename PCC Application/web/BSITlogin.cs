@@ -8,8 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System;
-using MySql.Data.MySqlClient;
+
 
 namespace web
 {
@@ -81,83 +80,21 @@ namespace web
                 tbpassword.PasswordChar = '*'; // Hide the password
         }
 
-
-
-        private void RegisterBtn_Click(object sender, EventArgs e)
+        private void btnRegister_Click(object sender, EventArgs e)
         {
-            string connectionString = "Server=localhost;Database=pccdatabase;Uid=root;Pwd=123456;";
-
-            try
-            {
-                // Check if any of the parameter values is empty
-                if (string.IsNullOrWhiteSpace(StudentIdBox.Text))
-                {
-                    MessageBox.Show("Please enter your Student ID.");
-                    return;
-                }
-                else if (string.IsNullOrWhiteSpace(NameBox.Text))
-                {
-                    MessageBox.Show("Please enter your Full Name.");
-                    return;
-                }
-                else if (string.IsNullOrWhiteSpace(DepartmentBox.Text))
-                {
-                    MessageBox.Show("Please enter your  Department.");
-                    return;
-                }
-                else if (string.IsNullOrWhiteSpace(YearlevelBox.Text))
-                {
-                    MessageBox.Show("Please enter your Year Level.");
-                    return;
-                }
-                else if (string.IsNullOrWhiteSpace(PassWBox.Text))
-                {
-                    MessageBox.Show("Please enter your Password.");
-                    return;
-                }
-
-                using (MySqlConnection connection = new MySqlConnection(connectionString))
-                {
-                    connection.Open();
-
-                    string query = "INSERT INTO bsit (StudentID, FullName, Department, YearLevel, PassW) " +
-                                    "VALUES (@StudentID, @FullName, @Department, @YearLevel, @PassW)";
-
-                    MySqlCommand command = new MySqlCommand(query, connection);
-
-                    command.Parameters.AddWithValue("@StudentID", StudentIdBox.Text);
-                    command.Parameters.AddWithValue("@FullName", NameBox.Text);
-                    command.Parameters.AddWithValue("@Department", DepartmentBox.Text);
-                    command.Parameters.AddWithValue("@YearLevel", YearlevelBox.Text);
-                    command.Parameters.AddWithValue("@PassW", PassWBox.Text);
-
-                    command.ExecuteNonQuery();
-
-                    MessageBox.Show("Account Created Successfully.");
-
-                    // Clear the fields after successful registration
-                    StudentIdBox.Text = "";
-                    NameBox.Text = "";
-                    DepartmentBox.Text = "";
-                    YearlevelBox.Text = "";
-                    PassWBox.Text = "";
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message);
-            }
+            BSITRegistration BSITRegistration = new BSITRegistration();
+            BSITRegistration.Show();
+            this.Hide();
+            
+            
         }
-
-
-
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            if (PassWBox.PasswordChar == '*')
-                PassWBox.PasswordChar = '\0'; // Show the password
-            else
-                PassWBox.PasswordChar = '*'; // Hide the password
+            ProjectCC form1 = new ProjectCC();
+            form1.Show();
+            this.Close();
         }
     }
 }
+
