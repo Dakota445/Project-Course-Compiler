@@ -32,7 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,6 +47,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,18 +81,6 @@
             this.richTextBox2.Size = new System.Drawing.Size(89, 531);
             this.richTextBox2.TabIndex = 49;
             this.richTextBox2.Text = "";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.White;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(416, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(273, 75);
-            this.richTextBox1.TabIndex = 41;
-            this.richTextBox1.Text = "St. Rita’s College of BalingasagBalingasag, Misamis OrientalHIGHER EDUCATION DEPA" +
-    "RTMENT";
             // 
             // dataGridView1
             // 
@@ -227,12 +215,25 @@
             this.pictureBox1.TabIndex = 40;
             this.pictureBox1.TabStop = false;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(416, 24);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(370, 69);
+            this.richTextBox1.TabIndex = 191;
+            this.richTextBox1.Text = "St. Rita’s College of Balingasag                Balingasag Misamis Oriental      " +
+    "                   HIGHER EDUCATION DEPARTMENT";
+            // 
             // BSITPcc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(829, 590);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.Viewbtn);
@@ -244,7 +245,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "BSITPcc";
@@ -264,7 +264,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label8;
@@ -279,5 +278,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn url;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

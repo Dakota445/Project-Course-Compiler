@@ -37,15 +37,15 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.Retrievebtn = new System.Windows.Forms.Button();
-            this.DELETEbtn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.URL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Retrievebtn = new System.Windows.Forms.Button();
+            this.DELETEbtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -104,7 +104,7 @@
             this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(441, 12);
+            this.richTextBox1.Location = new System.Drawing.Point(441, 16);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(273, 75);
             this.richTextBox1.TabIndex = 121;
@@ -133,6 +133,31 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(543, 370);
             this.dataGridView1.TabIndex = 119;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Project Title";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Project Description";
+            this.Column4.Name = "Column4";
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Date";
+            this.Column2.Name = "Column2";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Year level";
+            this.Column1.Name = "Column1";
+            // 
+            // URL
+            // 
+            this.URL.HeaderText = "URL";
+            this.URL.Name = "URL";
             // 
             // label2
             // 
@@ -172,31 +197,6 @@
             this.button1.TabIndex = 160;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Project Title";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Project Description";
-            this.Column4.Name = "Column4";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Date";
-            this.Column2.Name = "Column2";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Year level";
-            this.Column1.Name = "Column1";
-            // 
-            // URL
-            // 
-            this.URL.HeaderText = "URL";
-            this.URL.Name = "URL";
             // 
             // BSITarchieve
             // 

@@ -190,7 +190,7 @@
             this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(322, 16);
+            this.richTextBox1.Location = new System.Drawing.Point(322, 25);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(273, 75);
             this.richTextBox1.TabIndex = 123;
@@ -262,6 +262,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Name = "BSITRegistration";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BSITRegistration";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSITRegistration_FormClosing);
             this.Load += new System.EventHandler(this.BSITRegistration_Load);

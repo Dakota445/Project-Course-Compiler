@@ -142,7 +142,7 @@
             this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(329, 27);
+            this.richTextBox1.Location = new System.Drawing.Point(310, 29);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(370, 69);
             this.richTextBox1.TabIndex = 8;
@@ -172,6 +172,7 @@
             this.Name = "ProjectCC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " ";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ProjectCC_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

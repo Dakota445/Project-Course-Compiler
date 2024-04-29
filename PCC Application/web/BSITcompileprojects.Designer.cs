@@ -34,7 +34,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -49,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTitle = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,19 +104,6 @@
             this.richTextBox2.Size = new System.Drawing.Size(89, 531);
             this.richTextBox2.TabIndex = 207;
             this.richTextBox2.Text = "";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.White;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(377, 40);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(273, 75);
-            this.richTextBox1.TabIndex = 201;
-            this.richTextBox1.Text = "St. Rita’s College of BalingasagBalingasag, Misamis OrientalHIGHER EDUCATION DEPA" +
-    "RTMENT";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // button1
             // 
@@ -250,12 +237,25 @@
             this.txtTitle.Size = new System.Drawing.Size(275, 34);
             this.txtTitle.TabIndex = 221;
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(366, 39);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(370, 69);
+            this.richTextBox1.TabIndex = 231;
+            this.richTextBox1.Text = "St. Rita’s College of Balingasag                Balingasag Misamis Oriental      " +
+    "                   HIGHER EDUCATION DEPARTMENT";
+            // 
             // BSITcompileprojects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(841, 717);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtboxurl);
             this.Controls.Add(this.dateTimePicker1);
@@ -274,7 +274,6 @@
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "BSITcompileprojects";
             this.Text = "BSITcompileprojects";
@@ -296,7 +295,6 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtboxurl;
@@ -308,5 +306,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTitle;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

@@ -33,16 +33,16 @@
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.URL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -88,18 +88,6 @@
             this.button2.TabIndex = 42;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.White;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(440, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(273, 75);
-            this.richTextBox1.TabIndex = 41;
-            this.richTextBox1.Text = "St. Rita’s College of BalingasagBalingasag, Misamis OrientalHIGHER EDUCATION DEPA" +
-    "RTMENT";
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -122,27 +110,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(544, 451);
             this.dataGridView1.TabIndex = 39;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(146, 143);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 39);
-            this.label2.TabIndex = 111;
-            this.label2.Text = "BSIT";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.BackgroundImage = global::web.Properties.Resources.arrow_back_regular_24;
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 24);
-            this.button1.TabIndex = 112;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Column3
             // 
@@ -169,19 +136,52 @@
             this.URL.HeaderText = "URL";
             this.URL.Name = "URL";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(146, 143);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 39);
+            this.label2.TabIndex = 111;
+            this.label2.Text = "BSIT";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = global::web.Properties.Resources.arrow_back_regular_24;
+            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 24);
+            this.button1.TabIndex = 112;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(440, 21);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(370, 69);
+            this.richTextBox1.TabIndex = 113;
+            this.richTextBox1.Text = "St. Rita’s College of Balingasag                Balingasag Misamis Oriental      " +
+    "                   HIGHER EDUCATION DEPARTMENT";
+            // 
             // BSITcompiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(881, 701);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.MaximumSize = new System.Drawing.Size(897, 740);
@@ -203,7 +203,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label2;
@@ -213,5 +212,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn URL;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

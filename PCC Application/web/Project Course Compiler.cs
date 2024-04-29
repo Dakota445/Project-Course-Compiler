@@ -87,5 +87,10 @@ namespace web
         {
 
         }
+
+        private void ProjectCC_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

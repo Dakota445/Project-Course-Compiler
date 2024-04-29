@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSITlogin));
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.LoginBtn = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
             this.tbuser = new System.Windows.Forms.TextBox();
@@ -39,20 +38,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.White;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(241, 28);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(273, 97);
-            this.richTextBox1.TabIndex = 91;
-            this.richTextBox1.Text = "St. Rita’s College of BalingasagBalingasag, Misamis OrientalHIGHER EDUCATION DEPA" +
-    "RTMENT";
             // 
             // LoginBtn
             // 
@@ -144,15 +132,27 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.Location = new System.Drawing.Point(241, 38);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(370, 69);
+            this.richTextBox1.TabIndex = 162;
+            this.richTextBox1.Text = "St. Rita’s College of Balingasag                Balingasag Misamis Oriental      " +
+    "                   HIGHER EDUCATION DEPARTMENT";
+            // 
             // BSITlogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(640, 590);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.LoginBtn);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.tbuser);
@@ -174,8 +174,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button LoginBtn;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.TextBox tbuser;
@@ -185,5 +183,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
