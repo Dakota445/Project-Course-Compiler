@@ -1,5 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Windows.Forms;
 using YourNamespace;
@@ -15,6 +16,7 @@ namespace web
         {
             InitializeComponent();
             InitializeConnection();
+            refreshTable();
         }
 
         private void InitializeConnection()
@@ -23,9 +25,53 @@ namespace web
         }
 
 
-    
-   
-        
+        void refreshTable()
+        {
+            try
+            {
+                dataGridView1.Rows.Clear();
+                string sql = "SELECT * FROM bsitcompileprojects";
+                                  
+
+                List<string[]> rowData = new List<string[]>(); // Store rows data
+
+                using (MySqlConnection con = new MySqlConnection(connectionString))
+                {
+                    con.Open();
+                    MySqlCommand cmd = new MySqlCommand(sql, con);
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            // Store each row's data in rowData list
+                            rowData.Add(new string[]
+                            {
+                                reader["Project_Title"].ToString(),
+                                reader["Project_Description"].ToString(),
+                                reader["Date"].ToString(),
+                                reader["Year_Level"].ToString(),
+                                reader["url"].ToString(),
+                            });
+                        }
+                    }
+                }
+
+                // Sort the rowData list based on the first letter of the student's name
+                rowData.Sort((x, y) => x[0][0].CompareTo(y[0][0]));
+
+                // Add sorted rows to DataGrid
+                foreach (string[] row in rowData)
+                {
+                    dataGridView1.Rows.Add(row);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
 
         private void button14_Click_1(object sender, EventArgs e)
         {
@@ -80,6 +126,16 @@ namespace web
         }
 
         private void BSITCompiler_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

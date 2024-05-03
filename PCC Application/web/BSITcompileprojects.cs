@@ -32,7 +32,7 @@ namespace YourNamespace
 
                 _connection.Open();
 
-                string query = "INSERT INTO bsitcompileprojects (Project_Title, Project_Description, Date, URL , YearLevel) " +
+                string query = "INSERT INTO bsitcompileprojects (Project_Title, Project_Description, Date, URL , Year_Level) " +
                                "VALUES (@Project_Title, @Project_Description, @Date , @URL , @YearLevel)";
 
                 MySqlCommand command = new MySqlCommand(query, _connection);

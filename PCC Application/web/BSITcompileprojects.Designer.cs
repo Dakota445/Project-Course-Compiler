@@ -168,6 +168,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(275, 20);
             this.dateTimePicker1.TabIndex = 228;
+            this.dateTimePicker1.Value = new System.DateTime(2024, 5, 3, 22, 30, 6, 0);
             // 
             // txtYearLevel
             // 
