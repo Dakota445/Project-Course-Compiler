@@ -66,8 +66,8 @@ namespace web
 
         private void button10_Click(object sender, EventArgs e)
         {
-            BSITcompiler BSITcompiler = new BSITcompiler();
-            BSITcompiler.Show();
+            BSITProjectcompiler BSITProjectcompiler = new BSITProjectcompiler();
+            BSITProjectcompiler.Show();
             this.Hide();    
         }
 

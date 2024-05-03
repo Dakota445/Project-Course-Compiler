@@ -1,6 +1,6 @@
 ﻿namespace web
 {
-    partial class BSITcompiler
+    partial class BSITProjectcompiler
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSITcompiler));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSITProjectcompiler));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
@@ -169,7 +169,7 @@
             this.richTextBox1.Text = "St. Rita’s College of Balingasag                Balingasag Misamis Oriental      " +
     "                   HIGHER EDUCATION DEPARTMENT";
             // 
-            // BSITcompiler
+            // BSITProjectcompiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -186,9 +186,9 @@
             this.Controls.Add(this.dataGridView1);
             this.MaximumSize = new System.Drawing.Size(897, 740);
             this.MinimumSize = new System.Drawing.Size(897, 726);
-            this.Name = "BSITcompiler";
+            this.Name = "BSITProjectcompiler";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BSITcompiler";
+            this.Text = "BSITProjectcompiler";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSITcompiler_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace web
 {
-    public partial class BSITcompiler : Form
+    public partial class BSITProjectcompiler : Form
     {
-        public BSITcompiler()
+        public BSITProjectcompiler()
         {
             InitializeComponent();
         }
@@ -32,8 +32,8 @@ namespace web
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BSITPcc form6it = new BSITPcc();
-            form6it.Show();
+            BSITPcc BSITPcc = new BSITPcc();
+            BSITPcc.Show();
             this.Close();
 
         }
