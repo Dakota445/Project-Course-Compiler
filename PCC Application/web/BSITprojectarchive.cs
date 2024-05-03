@@ -19,14 +19,14 @@ namespace web
 
         private void button4_Click(object sender, EventArgs e)
         {
-            BSITPcc form6it = new BSITPcc();
+            BSITCompiler form6it = new BSITCompiler();
             form6it.Show();
             this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BSITPcc form6it = new BSITPcc();
+            BSITCompiler form6it = new BSITCompiler();
             form6it.Show();
             this.Close();
         }

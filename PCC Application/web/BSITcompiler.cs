@@ -2,15 +2,16 @@
 using System;
 using System.Data;
 using System.Windows.Forms;
+using YourNamespace;
 
 namespace web
 {
-    public partial class BSITPcc : Form
+    public partial class BSITCompiler : Form
     {
         private MySqlConnection connection;
         private string connectionString = "Server=localhost;Database=pccdatabase;Uid=root;Pwd=123456;";
 
-        public BSITPcc()
+        public BSITCompiler()
         {
             InitializeComponent();
             InitializeConnection();
@@ -28,8 +29,8 @@ namespace web
 
         private void button14_Click_1(object sender, EventArgs e)
         {
-            BSITcompileprojects BSITcompileprojects = new BSITcompileprojects();
-            BSITcompileprojects.Show();
+            BSITcompileprojects bSITcompileprojects = new BSITcompileprojects();
+            bSITcompileprojects.Show();
             this.Hide();
         }
 
@@ -69,6 +70,18 @@ namespace web
             BSITProjectcompiler BSITProjectcompiler = new BSITProjectcompiler();
             BSITProjectcompiler.Show();
             this.Hide();    
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            BSITProjectcompiler bSITProjectcompiler = new BSITProjectcompiler();
+            bSITProjectcompiler.Show();
+            this.Hide();
+        }
+
+        private void BSITCompiler_Load(object sender, EventArgs e)
+        {
+
         }
 
         // Other event handlers...

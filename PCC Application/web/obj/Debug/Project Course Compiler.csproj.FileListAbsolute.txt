@@ -226,3 +226,4 @@ C:\Users\SRCB-IT-ADMIN\Documents\GitHub\Project-Course-Compiler\PCC Application\
 C:\Users\asus1001\Desktop\File Path Github\PCC Application\web\obj\Debug\web.BSITRegistration.resources
 C:\Users\asus1001\Desktop\File Path Github\PCC Application\web\obj\Debug\web.BSITcompileprojects.resources
 C:\Users\asus1001\Desktop\File Path Github\PCC Application\web\obj\Debug\web.BSITProjectcompiler.resources
+C:\Users\asus1001\Desktop\File Path Github\PCC Application\web\obj\Debug\YourNamespace.BSITcompileprojects.resources

@@ -24,7 +24,7 @@ namespace web
 
         private void button4_Click(object sender, EventArgs e)
         {
-            BSITPcc form6it = new BSITPcc();
+            BSITCompiler form6it = new BSITCompiler();
             form6it.Show();
             this.Close();
 
@@ -32,10 +32,9 @@ namespace web
 
         private void button1_Click(object sender, EventArgs e)
         {
-            BSITPcc BSITPcc = new BSITPcc();
-            BSITPcc.Show();
-            this.Close();
-
+            BSITCompiler bSITCompiler = new BSITCompiler();
+            bSITCompiler.Show();
+            this.Hide();
         }
 
         private void BSITcompiler_FormClosing(object sender, FormClosingEventArgs e)

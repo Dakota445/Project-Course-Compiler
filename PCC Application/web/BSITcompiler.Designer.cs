@@ -1,6 +1,6 @@
 ﻿namespace web
 {
-    partial class BSITPcc
+    partial class BSITCompiler
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSITPcc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSITCompiler));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
@@ -40,7 +40,6 @@
             this.url = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
-            this.Viewbtn = new System.Windows.Forms.Button();
             this.Archivebtn = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -48,6 +47,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.VIEW = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -142,17 +142,6 @@
             this.button14.UseVisualStyleBackColor = true;
             this.button14.Click += new System.EventHandler(this.button14_Click_1);
             // 
-            // Viewbtn
-            // 
-            this.Viewbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Viewbtn.Location = new System.Drawing.Point(626, 500);
-            this.Viewbtn.Name = "Viewbtn";
-            this.Viewbtn.Size = new System.Drawing.Size(75, 37);
-            this.Viewbtn.TabIndex = 188;
-            this.Viewbtn.Text = "VIEW";
-            this.Viewbtn.UseVisualStyleBackColor = true;
-            this.Viewbtn.Click += new System.EventHandler(this.button10_Click);
-            // 
             // Archivebtn
             // 
             this.Archivebtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -227,16 +216,27 @@
             this.richTextBox1.Text = "St. Rita’s College of Balingasag                Balingasag Misamis Oriental      " +
     "                   HIGHER EDUCATION DEPARTMENT";
             // 
-            // BSITPcc
+            // VIEW
+            // 
+            this.VIEW.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIEW.Location = new System.Drawing.Point(614, 500);
+            this.VIEW.Name = "VIEW";
+            this.VIEW.Size = new System.Drawing.Size(75, 37);
+            this.VIEW.TabIndex = 192;
+            this.VIEW.Text = "VIEW";
+            this.VIEW.UseVisualStyleBackColor = true;
+            this.VIEW.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // BSITCompiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(829, 590);
+            this.Controls.Add(this.VIEW);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button14);
-            this.Controls.Add(this.Viewbtn);
             this.Controls.Add(this.Archivebtn);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button13);
@@ -247,10 +247,11 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "BSITPcc";
+            this.Name = "BSITCompiler";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BSITPcc";
+            this.Text = "BSITCompiler";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSITPcc_FormClosing);
+            this.Load += new System.EventHandler(this.BSITCompiler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -268,7 +269,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button Viewbtn;
         private System.Windows.Forms.Button Archivebtn;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
@@ -279,5 +279,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn url;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button VIEW;
     }
 }

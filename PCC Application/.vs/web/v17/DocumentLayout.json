@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitprojectcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitprojectarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitprojectarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitcompileprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitcompileprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitcompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|c:\\users\\asus1001\\desktop\\file path github\\pcc application\\web\\bsitcompileprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A149A6D0-E631-47D4-9E50-7D08D5D6DAC0}|web\\Project Course Compiler.csproj|solutionrelative:web\\bsitcompileprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,26 +43,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BSITcompiler.cs",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompiler.cs",
-              "RelativeDocumentMoniker": "web\\BSITcompiler.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompiler.cs",
-              "RelativeToolTip": "web\\BSITcompiler.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAuwEUAAAAfAAAA",
+              "Title": "BSITprojectcompiler.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITprojectcompiler.cs",
+              "RelativeDocumentMoniker": "web\\BSITprojectcompiler.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITprojectcompiler.cs",
+              "RelativeToolTip": "web\\BSITprojectcompiler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAkwCQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:31:25.651Z",
+              "WhenOpened": "2024-05-03T14:20:18.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BSITprojectarchive.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITprojectarchive.cs",
+              "RelativeDocumentMoniker": "web\\BSITprojectarchive.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITprojectarchive.cs [Design]",
+              "RelativeToolTip": "web\\BSITprojectarchive.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:20:12.991Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BSITprojectcompiler.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITprojectcompiler.cs",
+              "RelativeDocumentMoniker": "web\\BSITprojectcompiler.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITprojectcompiler.cs [Design]",
+              "RelativeToolTip": "web\\BSITprojectcompiler.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:19:42.665Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BSITcompileprojects.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompileprojects.cs",
+              "RelativeDocumentMoniker": "web\\BSITcompileprojects.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompileprojects.cs",
+              "RelativeToolTip": "web\\BSITcompileprojects.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAkwFkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:18:45.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BSITcompiler.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompiler.cs",
               "RelativeDocumentMoniker": "web\\BSITcompiler.cs",
               "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompiler.cs [Design]",
               "RelativeToolTip": "web\\BSITcompiler.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:28:05.212Z",
+              "WhenOpened": "2024-05-03T14:13:02.706Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BSITcompileprojects.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompileprojects.cs",
+              "RelativeDocumentMoniker": "web\\BSITcompileprojects.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\File Path Github\\PCC Application\\web\\BSITcompileprojects.cs [Design]",
+              "RelativeToolTip": "web\\BSITcompileprojects.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:12:53.032Z",
               "EditorCaption": " [Design]"
             }
           ]

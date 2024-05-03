@@ -47,7 +47,7 @@ namespace web
                     if (count > 0)
                     {
                         MessageBox.Show("Login successful!");
-                        BSITPcc bSITPcc = new BSITPcc();
+                        BSITCompiler bSITPcc = new BSITCompiler();
                         bSITPcc.Show();
                         this.Close();
                     }

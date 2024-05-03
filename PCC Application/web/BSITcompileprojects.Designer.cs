@@ -1,4 +1,4 @@
-﻿namespace web
+﻿namespace YourNamespace
 {
     partial class BSITcompileprojects
     {
@@ -47,7 +47,7 @@
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtTitle = new System.Windows.Forms.TextBox();
+            this.Projecttitle = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -80,7 +80,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(403, 14);
             this.panel1.TabIndex = 209;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label7
             // 
@@ -92,7 +91,6 @@
             this.label7.Size = new System.Drawing.Size(318, 28);
             this.label7.TabIndex = 208;
             this.label7.Text = "PROJECT COURSE COMPILER";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // richTextBox2
             // 
@@ -114,7 +112,7 @@
             this.button1.Size = new System.Drawing.Size(30, 24);
             this.button1.TabIndex = 218;
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button4
             // 
@@ -145,7 +143,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(101, 101);
             this.pictureBox1.TabIndex = 200;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label5
             // 
@@ -156,7 +153,6 @@
             this.label5.Size = new System.Drawing.Size(47, 28);
             this.label5.TabIndex = 230;
             this.label5.Text = "url:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtboxurl
             // 
@@ -229,13 +225,13 @@
             this.label1.TabIndex = 222;
             this.label1.Text = "Project Title:";
             // 
-            // txtTitle
+            // Projecttitle
             // 
-            this.txtTitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTitle.Location = new System.Drawing.Point(156, 382);
-            this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(275, 34);
-            this.txtTitle.TabIndex = 221;
+            this.Projecttitle.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Projecttitle.Location = new System.Drawing.Point(156, 382);
+            this.Projecttitle.Name = "Projecttitle";
+            this.Projecttitle.Size = new System.Drawing.Size(275, 34);
+            this.Projecttitle.TabIndex = 221;
             // 
             // richTextBox1
             // 
@@ -265,7 +261,7 @@
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtTitle);
+            this.Controls.Add(this.Projecttitle);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.label8);
@@ -278,8 +274,7 @@
             this.Name = "BSITcompileprojects";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BSITcompileprojects";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSITcompileprojects_FormClosing);
-            this.Load += new System.EventHandler(this.BSITcompileprojects_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSITcompileprojects_FormClosing_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -306,7 +301,7 @@
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtTitle;
+        private System.Windows.Forms.TextBox Projecttitle;
         private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
