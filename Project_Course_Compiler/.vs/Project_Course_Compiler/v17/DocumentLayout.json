@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DOSTX-Admin\\OneDrive - DOST-REGIONAL OFFICE X\\Desktop\\Carls Respo\\Project_Course_Compiler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\dostx-admin\\onedrive - dost-regional office x\\desktop\\carls respo\\project_course_compiler\\project_course_compiler\\intro_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\intro_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Intro_Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DOSTX-Admin\\OneDrive - DOST-REGIONAL OFFICE X\\Desktop\\Carls Respo\\Project_Course_Compiler\\Project_Course_Compiler\\Intro_Form.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\Intro_Form.cs",
+              "ToolTip": "C:\\Users\\DOSTX-Admin\\OneDrive - DOST-REGIONAL OFFICE X\\Desktop\\Carls Respo\\Project_Course_Compiler\\Project_Course_Compiler\\Intro_Form.cs [Design]",
+              "RelativeToolTip": "Project_Course_Compiler\\Intro_Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:09:38.435Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
