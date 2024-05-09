@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.HM__area.Small_Forms
+namespace Project_Course_Compiler.HM_area.Small_Forms
 {
     public partial class HM_Update : Form
     {
-        public HM_Update()
+        public HM_Update(string Stored_ID)
         {
             InitializeComponent();
             Old_ID = Stored_ID;
@@ -55,6 +55,7 @@ namespace Project_Course_Compiler.HM__area.Small_Forms
                 Updateee();
             }
         }
+
         void Updateee()
         {
             try
@@ -88,5 +89,4 @@ namespace Project_Course_Compiler.HM__area.Small_Forms
             }
         }
     }
-    }
-
+}

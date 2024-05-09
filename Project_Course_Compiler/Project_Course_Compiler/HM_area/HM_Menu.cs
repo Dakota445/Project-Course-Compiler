@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.HM__area
+namespace Project_Course_Compiler.HM_area
 {
     public partial class HM_Menu : Form
     {
@@ -85,87 +85,8 @@ namespace Project_Course_Compiler.HM__area
             {
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
-
-            private void button4_Click(object sender, EventArgs e)
-            {
-                DialogResult result = MessageBox.Show("Are you sure you want to Log-out?", "Confirming Log-out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    Intro_Form intro = new Intro_Form();
-                    intro.Show();
-                    this.Hide();
-                }
-            }
-
-            private void button3_Click(object sender, EventArgs e)
-            {
-                Archive_Form view = new Archive_Form();
-                view.ShowDialog();
-                refreshTable();
-            }
-
-            private void Add_btn_Click(object sender, EventArgs e)
-            {
-                TEP_area.Small_Forms.TEP_Add add = new TEP_area.Small_Forms.TEP_Add();
-                add.ShowDialog();
-                refreshTable();
-            }
-
-            private void Edit_btn_Click(object sender, EventArgs e)
-            {
-                Small_Forms.HM_Update update = new Small_Forms.HM_Update(Stored_ID);
-                update.ShowDialog();
-                refreshTable();
-            }
-
-            private void remove_btn_Click(object sender, EventArgs e)
-            {
-                DialogResult result = MessageBox.Show($"Are you sure you want to delete '{Titlee}' from the record?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes)
-                {
-                    try
-                    {
-                        //Set Archive_Status to 1
-                        using (MySqlConnection con = new MySqlConnection(consstring))
-                        {
-                            con.Open();
-                            string sql = "UPDATE Projects SET Archive = @Archive WHERE Identifier = @ID";
-                            MySqlCommand cmd = new MySqlCommand(sql, con);
-                            cmd.Parameters.AddWithValue("@ID", Stored_ID);
-                            cmd.Parameters.AddWithValue("@Archive", "1");
-                            int rowsAffected = cmd.ExecuteNonQuery();
-                        }
-                        refreshTable();
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"error: {ex}");
-                    }
-                }
-            }
-
-            private void view_url_btn_Click(object sender, EventArgs e)
-            {
-                Show_URL_Form show = new Show_URL_Form(Stored_URL);
-                show.ShowDialog();
-            }
         }
-
-        private void Add_btn_Click(object sender, EventArgs e)
-        {
-            HM__area.Small_Forms.HM_Add add = new TEP_area.Small_Forms.TEP_Add();
-            add.ShowDialog();
-            refreshTable();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Archive_Form view = new Archive_Form();
-            view.ShowDialog();
-            refreshTable();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void return_btn_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Are you sure you want to Log-out?", "Confirming Log-out", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
@@ -176,13 +97,28 @@ namespace Project_Course_Compiler.HM__area
             }
         }
 
-        private void view_url_btn_Click(object sender, EventArgs e)
+        private void Archivebtn_Click(object sender, EventArgs e)
         {
-            Show_URL_Form show = new Show_URL_Form(Stored_URL);
-            show.ShowDialog();
+            Archive_Form view = new Archive_Form();
+            view.ShowDialog();
+            refreshTable();
         }
 
-        private void remove_btn_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            IT_area.Small_Forms.IT_Add add = new IT_area.Small_Forms.IT_Add();
+            add.ShowDialog();
+            refreshTable();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Small_Forms.HM_Update update = new Small_Forms.HM_Update(Stored_ID);
+            update.ShowDialog();
+            refreshTable();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show($"Are you sure you want to delete '{Titlee}' from the record?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
@@ -208,12 +144,15 @@ namespace Project_Course_Compiler.HM__area
             }
         }
 
-        private void Edit_btn_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Small_Forms.HM_Update update = new Small_Forms.HM_Update(Stored_ID);
-            update.ShowDialog();
-            refreshTable();
+            Show_URL_Form show = new Show_URL_Form(Stored_URL);
+            show.ShowDialog();
+        }
+
+        private void HM_Menu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
-

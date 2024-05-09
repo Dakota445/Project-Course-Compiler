@@ -8,9 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.MonthCalendar;
 
-namespace Project_Course_Compiler.HM__area
+namespace Project_Course_Compiler.HM_area
 {
     public partial class HM_Register : Form
     {
@@ -19,16 +18,17 @@ namespace Project_Course_Compiler.HM__area
             InitializeComponent();
         }
         string consstring = Program.GlobalConsstring;
-        string Courseee = "TEP";
+        string Courseee = "HM";
         private void return_btn_Click(object sender, EventArgs e)
         {
-            HM__area.HM_Login login = new HM__area.HM_Login();
+            IT_area.IT_Login login = new IT_area.IT_Login();
             login.Show();
             this.Hide();
         }
 
         private void RegisterBtn_Click(object sender, EventArgs e)
         {
+
             try
             {
                 if (string.IsNullOrWhiteSpace(StudentIdBox.Text))
@@ -91,6 +91,19 @@ namespace Project_Course_Compiler.HM__area
             {
                 MessageBox.Show("Error: " + ex.Message);
             }
+        }
+
+        private void Show_Pass_btn_Click(object sender, EventArgs e)
+        {
+            if (PassWBox.PasswordChar == '\0')
+                PassWBox.PasswordChar = '*';
+            else
+                PassWBox.PasswordChar = '\0';
+        }
+
+        private void HM_Register_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

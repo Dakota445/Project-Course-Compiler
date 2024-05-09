@@ -1,4 +1,4 @@
-﻿namespace Project_Course_Compiler.HM__area
+﻿namespace Project_Course_Compiler.HM_area
 {
     partial class HM_Register
     {
@@ -59,10 +59,10 @@
             this.return_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.return_btn.BackColor = System.Drawing.Color.White;
             this.return_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.return_btn.Location = new System.Drawing.Point(13, 5);
+            this.return_btn.Location = new System.Drawing.Point(12, 12);
             this.return_btn.Name = "return_btn";
             this.return_btn.Size = new System.Drawing.Size(74, 39);
-            this.return_btn.TabIndex = 219;
+            this.return_btn.TabIndex = 207;
             this.return_btn.Text = "Return";
             this.return_btn.UseVisualStyleBackColor = false;
             this.return_btn.Click += new System.EventHandler(this.return_btn_Click);
@@ -71,11 +71,11 @@
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.panel3.BackColor = System.Drawing.Color.LightCoral;
-            this.panel3.Location = new System.Drawing.Point(104, 125);
+            this.panel3.Location = new System.Drawing.Point(103, 135);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(82, 377);
-            this.panel3.TabIndex = 218;
+            this.panel3.Size = new System.Drawing.Size(82, 371);
+            this.panel3.TabIndex = 206;
             // 
             // panel1
             // 
@@ -87,11 +87,11 @@
             this.panel1.Controls.Add(this.RegisterBtn);
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(217, 163);
+            this.panel1.Location = new System.Drawing.Point(216, 170);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(464, 297);
-            this.panel1.TabIndex = 217;
+            this.panel1.TabIndex = 205;
             // 
             // Show_Pass_btn
             // 
@@ -102,6 +102,7 @@
             this.Show_Pass_btn.Size = new System.Drawing.Size(42, 32);
             this.Show_Pass_btn.TabIndex = 136;
             this.Show_Pass_btn.UseVisualStyleBackColor = true;
+            this.Show_Pass_btn.Click += new System.EventHandler(this.Show_Pass_btn_Click);
             // 
             // RegisterBtn
             // 
@@ -259,11 +260,11 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(217, 15);
+            this.panel2.Location = new System.Drawing.Point(216, 22);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(410, 134);
-            this.panel2.TabIndex = 216;
+            this.panel2.TabIndex = 204;
             // 
             // label5
             // 
@@ -310,10 +311,10 @@
             this.HM_btn.BackColor = System.Drawing.Color.LightCoral;
             this.HM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HM_btn.Image = ((System.Drawing.Image)(resources.GetObject("HM_btn.Image")));
-            this.HM_btn.Location = new System.Drawing.Point(93, 27);
+            this.HM_btn.Location = new System.Drawing.Point(92, 33);
             this.HM_btn.Name = "HM_btn";
-            this.HM_btn.Size = new System.Drawing.Size(117, 118);
-            this.HM_btn.TabIndex = 220;
+            this.HM_btn.Size = new System.Drawing.Size(102, 97);
+            this.HM_btn.TabIndex = 209;
             this.HM_btn.UseVisualStyleBackColor = false;
             // 
             // HM_Register
@@ -329,6 +330,7 @@
             this.Name = "HM_Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HM_Register";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HM_Register_FormClosing);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

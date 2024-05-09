@@ -1,9 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\Github Repo\\Project-Course-Compiler\\Project_Course_Compiler\\",
+  "WorkspaceRootPath": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\github repo\\project-course-compiler\\project_course_compiler\\project_course_compiler\\hm_area\\hm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\it_area\\small_forms\\it_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\it_area\\small_forms\\it_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\hm_area\\hm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\hm_area\\hm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\hm_area\\small_forms\\hm_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\hm_area\\small_forms\\hm_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\it_area\\it_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\it_area\\it_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\it_area\\it_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\it_area\\it_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\hm_area\\hm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\hm_area\\hm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\hm_area\\small_forms\\hm_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\hm_area\\small_forms\\hm_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\it_area\\small_forms\\it_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\it_area\\small_forms\\it_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|c:\\users\\asus1001\\desktop\\pcc try fetch\\project-course-compiler\\project_course_compiler\\project_course_compiler\\hm_area\\hm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{486D14E5-CBD1-43D4-A520-D233BA1CDB54}|Project_Course_Compiler\\Project_Course_Compiler.csproj|solutionrelative:project_course_compiler\\hm_area\\hm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -14,23 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IT_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\IT_Menu.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\IT_area\\IT_Menu.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\IT_Menu.cs",
+              "RelativeToolTip": "Project_Course_Compiler\\IT_area\\IT_Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:20:49.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IT_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\IT_Menu.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\IT_area\\IT_Menu.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\IT_Menu.cs [Design]",
+              "RelativeToolTip": "Project_Course_Compiler\\IT_area\\IT_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:20:46.398Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HM_Menu.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Menu.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\HM_area\\HM_Menu.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Menu.cs",
+              "RelativeToolTip": "Project_Course_Compiler\\HM_area\\HM_Menu.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAHMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:20:41.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HM_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Menu.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\HM_area\\HM_Menu.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Menu.cs [Design]",
+              "RelativeToolTip": "Project_Course_Compiler\\HM_area\\HM_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:20:38.403Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HM_Update.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs*",
+              "RelativeToolTip": "Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAewA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:19:12.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IT_Update.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs*",
+              "RelativeToolTip": "Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:18:54.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IT_Update.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs [Design]*",
+              "RelativeToolTip": "Project_Course_Compiler\\IT_area\\Small_Forms\\IT_Update.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:18:10.449Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HM_Update.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs",
+              "RelativeDocumentMoniker": "Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs [Design]*",
+              "RelativeToolTip": "Project_Course_Compiler\\HM_area\\Small_Forms\\HM_Update.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:14:44.006Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HM_Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\Github Repo\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Login.cs",
+              "DocumentMoniker": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Login.cs",
               "RelativeDocumentMoniker": "Project_Course_Compiler\\HM_area\\HM_Login.cs",
-              "ToolTip": "C:\\Users\\asus1001\\Desktop\\Github Repo\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Login.cs [Design]",
+              "ToolTip": "C:\\Users\\asus1001\\Desktop\\pcc try fetch\\Project-Course-Compiler\\Project_Course_Compiler\\Project_Course_Compiler\\HM_area\\HM_Login.cs [Design]",
               "RelativeToolTip": "Project_Course_Compiler\\HM_area\\HM_Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T07:03:38.169Z",
+              "WhenOpened": "2024-05-09T08:03:39.126Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

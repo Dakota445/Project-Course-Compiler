@@ -8,9 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.MonthCalendar;
 
-namespace Project_Course_Compiler.HM__area
+namespace Project_Course_Compiler.HM_area
 {
     public partial class HM_Login : Form
     {
@@ -71,7 +70,7 @@ namespace Project_Course_Compiler.HM__area
                                 Program.yearlevel = reader.GetString(3);
                                 Program.department = reader.GetString(2);
                                 MessageBox.Show($"You are logged-in as {Program.username}", "Login Successful");
-                                HM__area.HM_Menu menu = new HM__area.HM_Menu();
+                                HM_area.HM_Menu menu = new HM_area.HM_Menu();
                                 menu.Show();
                                 this.Hide();
                             }
@@ -92,11 +91,27 @@ namespace Project_Course_Compiler.HM__area
             }
         }
 
+  
+
         private void button1_Click(object sender, EventArgs e)
         {
-            HM__area.HM_Register register = new HM__area.HM_Register();
+            HM_area.HM_Register register = new HM_area.HM_Register();
             register.Show();
             this.Hide();
         }
+
+        private void Show_pass_btn_Click_1(object sender, EventArgs e)
+        {
+            if (tbpassword.PasswordChar == '\0')
+                tbpassword.PasswordChar = '*';
+            else
+                tbpassword.PasswordChar = '\0';
+        }
+
+        private void HM_Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
+

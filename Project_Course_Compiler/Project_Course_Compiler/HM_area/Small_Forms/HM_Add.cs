@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.HM__area.Small_Forms
+namespace Project_Course_Compiler.HM_area.Small_Forms
 {
-    public partial class HM_Addcs : Form
+    public partial class HM_Add : Form
     {
-        public HM_Addcs()
+        public HM_Add()
         {
             InitializeComponent();
         }
@@ -21,9 +21,9 @@ namespace Project_Course_Compiler.HM__area.Small_Forms
         private void add_btn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(titlebox.Text) ||
-              string.IsNullOrWhiteSpace(descriptionbox.Text) ||
-              string.IsNullOrWhiteSpace(dateTimePicker1.Text) ||
-              string.IsNullOrWhiteSpace(urlbox.Text))
+                string.IsNullOrWhiteSpace(descriptionbox.Text) ||
+                string.IsNullOrWhiteSpace(dateTimePicker1.Text) ||
+                string.IsNullOrWhiteSpace(urlbox.Text))
             {
                 MessageBox.Show("Please fill in all fields.");
                 return;
@@ -56,4 +56,5 @@ namespace Project_Course_Compiler.HM__area.Small_Forms
             }
         }
     }
-}
+    }
+

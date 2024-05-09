@@ -1,4 +1,4 @@
-﻿namespace Project_Course_Compiler.HM__area.Small_Forms
+﻿namespace Project_Course_Compiler.HM_area.Small_Forms
 {
     partial class HM_Update
     {
@@ -48,7 +48,7 @@
             this.label7.Location = new System.Drawing.Point(77, 30);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(283, 46);
-            this.label7.TabIndex = 231;
+            this.label7.TabIndex = 225;
             this.label7.Text = "Update Project";
             // 
             // add_btn
@@ -57,7 +57,7 @@
             this.add_btn.Location = new System.Drawing.Point(143, 322);
             this.add_btn.Name = "add_btn";
             this.add_btn.Size = new System.Drawing.Size(133, 37);
-            this.add_btn.TabIndex = 230;
+            this.add_btn.TabIndex = 224;
             this.add_btn.Text = "SAVE";
             this.add_btn.UseVisualStyleBackColor = true;
             this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
@@ -81,7 +81,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
-            this.tableLayoutPanel1.TabIndex = 229;
+            this.tableLayoutPanel1.TabIndex = 223;
             // 
             // label5
             // 

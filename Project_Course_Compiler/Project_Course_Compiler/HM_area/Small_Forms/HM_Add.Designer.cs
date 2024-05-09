@@ -1,6 +1,6 @@
-﻿namespace Project_Course_Compiler.HM__area.Small_Forms
+﻿namespace Project_Course_Compiler.HM_area.Small_Forms
 {
-    partial class HM_Addcs
+    partial class HM_Add
     {
         /// <summary>
         /// Required designer variable.
@@ -50,7 +50,7 @@
             this.label7.Location = new System.Drawing.Point(77, 30);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(283, 46);
-            this.label7.TabIndex = 228;
+            this.label7.TabIndex = 222;
             this.label7.Text = "Adding Project";
             // 
             // add_btn
@@ -59,7 +59,7 @@
             this.add_btn.Location = new System.Drawing.Point(142, 322);
             this.add_btn.Name = "add_btn";
             this.add_btn.Size = new System.Drawing.Size(133, 37);
-            this.add_btn.TabIndex = 227;
+            this.add_btn.TabIndex = 221;
             this.add_btn.Text = "ADD PROJECT";
             this.add_btn.UseVisualStyleBackColor = true;
             this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
@@ -86,7 +86,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
-            this.tableLayoutPanel1.TabIndex = 226;
+            this.tableLayoutPanel1.TabIndex = 220;
             // 
             // label5
             // 
@@ -169,7 +169,7 @@
             this.urlbox.Size = new System.Drawing.Size(260, 26);
             this.urlbox.TabIndex = 235;
             // 
-            // HM_Addcs
+            // HM_Add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,9 +178,9 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.add_btn);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "HM_Addcs";
+            this.Name = "HM_Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HM_Addcs";
+            this.Text = "HM_Add";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

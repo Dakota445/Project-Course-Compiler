@@ -50,6 +50,7 @@
             this.label7.Size = new System.Drawing.Size(283, 46);
             this.label7.TabIndex = 222;
             this.label7.Text = "Update Project";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // add_btn
             // 
@@ -74,7 +75,7 @@
             this.tableLayoutPanel1.Controls.Add(this.descriptionbox, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.urlbox, 1, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(26, 110);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -82,6 +83,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
             this.tableLayoutPanel1.TabIndex = 220;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // label5
             // 
@@ -153,7 +155,7 @@
             this.Controls.Add(this.add_btn);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IT_Update";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IT Update";

@@ -92,5 +92,15 @@ namespace Project_Course_Compiler.IT_area.Small_Forms
             }
 
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

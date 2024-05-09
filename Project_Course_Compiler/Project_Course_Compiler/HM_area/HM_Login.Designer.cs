@@ -1,4 +1,4 @@
-﻿namespace Project_Course_Compiler.HM__area
+﻿namespace Project_Course_Compiler.HM_area
 {
     partial class HM_Login
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HM_Login));
+            this.return_btn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -44,13 +45,23 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.return_btn = new System.Windows.Forms.Button();
             this.HM_btn = new System.Windows.Forms.Button();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // return_btn
+            // 
+            this.return_btn.BackColor = System.Drawing.Color.White;
+            this.return_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.return_btn.Location = new System.Drawing.Point(10, 10);
+            this.return_btn.Name = "return_btn";
+            this.return_btn.Size = new System.Drawing.Size(65, 32);
+            this.return_btn.TabIndex = 206;
+            this.return_btn.Text = "Return";
+            this.return_btn.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -59,11 +70,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.panel1);
-            this.panel3.Location = new System.Drawing.Point(93, 169);
+            this.panel3.Location = new System.Drawing.Point(88, 167);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(508, 223);
-            this.panel3.TabIndex = 152;
+            this.panel3.TabIndex = 205;
             // 
             // label6
             // 
@@ -75,7 +86,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(400, 45);
             this.label6.TabIndex = 22;
-            this.label6.Text = "CRIM LOGIN AREA";
+            this.label6.Text = "IT LOGIN AREA";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -123,7 +134,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.76311F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.23689F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
             this.tableLayoutPanel1.Controls.Add(this.tbuser, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.Show_pass_btn, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
@@ -142,28 +153,28 @@
             // 
             this.tbuser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbuser.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbuser.Location = new System.Drawing.Point(96, 3);
+            this.tbuser.Location = new System.Drawing.Point(98, 3);
             this.tbuser.Name = "tbuser";
-            this.tbuser.Size = new System.Drawing.Size(249, 34);
+            this.tbuser.Size = new System.Drawing.Size(253, 34);
             this.tbuser.TabIndex = 1;
             // 
             // Show_pass_btn
             // 
             this.Show_pass_btn.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.Show_pass_btn.Image = ((System.Drawing.Image)(resources.GetObject("Show_pass_btn.Image")));
-            this.Show_pass_btn.Location = new System.Drawing.Point(351, 44);
+            this.Show_pass_btn.Location = new System.Drawing.Point(357, 44);
             this.Show_pass_btn.Name = "Show_pass_btn";
             this.Show_pass_btn.Size = new System.Drawing.Size(41, 32);
             this.Show_pass_btn.TabIndex = 3;
             this.Show_pass_btn.UseVisualStyleBackColor = true;
-            this.Show_pass_btn.Click += new System.EventHandler(this.Show_pass_btn_Click);
+            this.Show_pass_btn.Click += new System.EventHandler(this.Show_pass_btn_Click_1);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 12);
+            this.label2.Location = new System.Drawing.Point(12, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 94;
@@ -173,10 +184,10 @@
             // 
             this.tbpassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbpassword.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpassword.Location = new System.Drawing.Point(96, 43);
+            this.tbpassword.Location = new System.Drawing.Point(98, 43);
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.PasswordChar = '*';
-            this.tbpassword.Size = new System.Drawing.Size(249, 34);
+            this.tbpassword.Size = new System.Drawing.Size(253, 34);
             this.tbpassword.TabIndex = 2;
             // 
             // label3
@@ -184,7 +195,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(11, 52);
+            this.label3.Location = new System.Drawing.Point(13, 52);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 95;
@@ -196,11 +207,11 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(179, 11);
+            this.panel2.Location = new System.Drawing.Point(144, 10);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(410, 134);
-            this.panel2.TabIndex = 151;
+            this.panel2.TabIndex = 204;
             // 
             // label5
             // 
@@ -241,28 +252,16 @@
             this.label1.Text = "St. Rita’s College of Balingasag";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // return_btn
-            // 
-            this.return_btn.BackColor = System.Drawing.Color.White;
-            this.return_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.return_btn.Location = new System.Drawing.Point(12, 12);
-            this.return_btn.Name = "return_btn";
-            this.return_btn.Size = new System.Drawing.Size(65, 32);
-            this.return_btn.TabIndex = 150;
-            this.return_btn.Text = "Return";
-            this.return_btn.UseVisualStyleBackColor = false;
-            this.return_btn.Click += new System.EventHandler(this.return_btn_Click);
-            // 
             // HM_btn
             // 
             this.HM_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.HM_btn.BackColor = System.Drawing.Color.LightCoral;
             this.HM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HM_btn.Image = ((System.Drawing.Image)(resources.GetObject("HM_btn.Image")));
-            this.HM_btn.Location = new System.Drawing.Point(83, 21);
+            this.HM_btn.Location = new System.Drawing.Point(81, 30);
             this.HM_btn.Name = "HM_btn";
-            this.HM_btn.Size = new System.Drawing.Size(117, 118);
-            this.HM_btn.TabIndex = 153;
+            this.HM_btn.Size = new System.Drawing.Size(102, 97);
+            this.HM_btn.TabIndex = 208;
             this.HM_btn.UseVisualStyleBackColor = false;
             // 
             // HM_Login
@@ -271,14 +270,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 424);
             this.Controls.Add(this.HM_btn);
+            this.Controls.Add(this.return_btn);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.return_btn);
             this.Name = "HM_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo" +
-    "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo" +
-    "oo";
+            this.Text = "HM_Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HM_Login_FormClosing);
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -289,6 +287,7 @@
         }
 
         #endregion
+        private System.Windows.Forms.Button return_btn;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel1;
@@ -304,7 +303,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button return_btn;
         private System.Windows.Forms.Button HM_btn;
     }
 }
