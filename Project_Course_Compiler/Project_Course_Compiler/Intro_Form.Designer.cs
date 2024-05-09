@@ -58,6 +58,7 @@
             this.HM_btn.Size = new System.Drawing.Size(117, 118);
             this.HM_btn.TabIndex = 16;
             this.HM_btn.UseVisualStyleBackColor = false;
+            this.HM_btn.Click += new System.EventHandler(this.HM_btn_Click);
             // 
             // TEP_btn
             // 
@@ -83,6 +84,7 @@
             this.BSBA_btn.Size = new System.Drawing.Size(117, 118);
             this.BSBA_btn.TabIndex = 14;
             this.BSBA_btn.UseVisualStyleBackColor = false;
+            this.BSBA_btn.Click += new System.EventHandler(this.BSBA_btn_Click);
             // 
             // IT_btn
             // 

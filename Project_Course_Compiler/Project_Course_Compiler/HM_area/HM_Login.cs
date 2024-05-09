@@ -28,10 +28,7 @@ namespace Project_Course_Compiler.HM_area
 
         private void Show_pass_btn_Click(object sender, EventArgs e)
         {
-            if (tbpassword.PasswordChar == '\0')
-                tbpassword.PasswordChar = '*';
-            else
-                tbpassword.PasswordChar = '\0';
+
         }
 
         private void Login_btn_Click(object sender, EventArgs e)
@@ -111,6 +108,21 @@ namespace Project_Course_Compiler.HM_area
         private void HM_Login_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Show_pass_btn_Click_2(object sender, EventArgs e)
+        {
+            if (tbpassword.PasswordChar == '\0')
+                tbpassword.PasswordChar = '*';
+            else
+                tbpassword.PasswordChar = '\0';
+        }
+
+        private void return_btn_Click_1(object sender, EventArgs e)
+        {
+            Intro_Form intro = new Intro_Form();
+            intro.Show();
+            this.Hide();
         }
     }
 }

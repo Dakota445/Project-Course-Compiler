@@ -9,21 +9,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.TEP_area
+namespace Project_Course_Compiler.BSBA_area
 {
-    public partial class TEP_Login : Form
+    public partial class BSBA_Login : Form
     {
-        public TEP_Login()
+        public BSBA_Login()
         {
             InitializeComponent();
         }
         string consstring = Program.GlobalConsstring;
-        string Coursee = "TEP";
-        private void TEP_btn_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        string Coursee = "BSBA";
         private void return_btn_Click(object sender, EventArgs e)
         {
             Intro_Form intro = new Intro_Form();
@@ -75,7 +70,7 @@ namespace Project_Course_Compiler.TEP_area
                                 Program.yearlevel = reader.GetString(3);
                                 Program.department = reader.GetString(2);
                                 MessageBox.Show($"You are logged-in as {Program.username}", "Login Successful");
-                                TEP_area.TEP_Menu menu = new TEP_area.TEP_Menu();
+                                BSBA_area.BSBA_Menu menu = new BSBA_area.BSBA_Menu();
                                 menu.Show();
                                 this.Hide();
                             }
@@ -94,24 +89,19 @@ namespace Project_Course_Compiler.TEP_area
             {
                 MessageBox.Show("An error occurred: " + ex.Message);
             }
-        
-    }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TEP_area.TEP_Register register = new TEP_area.TEP_Register();
+            BSBA_area.BSBA_Register register = new BSBA_area.BSBA_Register();
             register.Show();
             this.Hide();
         }
 
-        private void TEP_Login_FormClosing(object sender, FormClosingEventArgs e)
+        private void BSBA_Login_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
+

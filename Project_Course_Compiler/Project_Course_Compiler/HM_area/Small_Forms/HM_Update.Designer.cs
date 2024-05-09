@@ -50,6 +50,7 @@
             this.label7.Size = new System.Drawing.Size(283, 46);
             this.label7.TabIndex = 225;
             this.label7.Text = "Update Project";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // add_btn
             // 
@@ -82,6 +83,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
             this.tableLayoutPanel1.TabIndex = 223;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // label5
             // 

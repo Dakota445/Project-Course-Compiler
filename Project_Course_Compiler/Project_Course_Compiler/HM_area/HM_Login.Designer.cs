@@ -37,10 +37,10 @@
             this.Login_btn = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tbuser = new System.Windows.Forms.TextBox();
-            this.Show_pass_btn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.tbpassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.Show_pass_btn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -62,6 +62,7 @@
             this.return_btn.TabIndex = 206;
             this.return_btn.Text = "Return";
             this.return_btn.UseVisualStyleBackColor = false;
+            this.return_btn.Click += new System.EventHandler(this.return_btn_Click_1);
             // 
             // panel3
             // 
@@ -86,7 +87,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(400, 45);
             this.label6.TabIndex = 22;
-            this.label6.Text = "IT LOGIN AREA";
+            this.label6.Text = "HM LOGIN AREA";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -134,12 +135,12 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.76311F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.23689F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
             this.tableLayoutPanel1.Controls.Add(this.tbuser, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.Show_pass_btn, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tbpassword, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Show_pass_btn, 2, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 19);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -153,28 +154,17 @@
             // 
             this.tbuser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbuser.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbuser.Location = new System.Drawing.Point(98, 3);
+            this.tbuser.Location = new System.Drawing.Point(96, 3);
             this.tbuser.Name = "tbuser";
-            this.tbuser.Size = new System.Drawing.Size(253, 34);
+            this.tbuser.Size = new System.Drawing.Size(249, 34);
             this.tbuser.TabIndex = 1;
-            // 
-            // Show_pass_btn
-            // 
-            this.Show_pass_btn.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.Show_pass_btn.Image = ((System.Drawing.Image)(resources.GetObject("Show_pass_btn.Image")));
-            this.Show_pass_btn.Location = new System.Drawing.Point(357, 44);
-            this.Show_pass_btn.Name = "Show_pass_btn";
-            this.Show_pass_btn.Size = new System.Drawing.Size(41, 32);
-            this.Show_pass_btn.TabIndex = 3;
-            this.Show_pass_btn.UseVisualStyleBackColor = true;
-            this.Show_pass_btn.Click += new System.EventHandler(this.Show_pass_btn_Click_1);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 12);
+            this.label2.Location = new System.Drawing.Point(10, 12);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 94;
@@ -184,10 +174,10 @@
             // 
             this.tbpassword.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbpassword.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbpassword.Location = new System.Drawing.Point(98, 43);
+            this.tbpassword.Location = new System.Drawing.Point(96, 43);
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.PasswordChar = '*';
-            this.tbpassword.Size = new System.Drawing.Size(253, 34);
+            this.tbpassword.Size = new System.Drawing.Size(249, 34);
             this.tbpassword.TabIndex = 2;
             // 
             // label3
@@ -195,11 +185,22 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(13, 52);
+            this.label3.Location = new System.Drawing.Point(11, 52);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 95;
             this.label3.Text = "Password:";
+            // 
+            // Show_pass_btn
+            // 
+            this.Show_pass_btn.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.Show_pass_btn.Image = ((System.Drawing.Image)(resources.GetObject("Show_pass_btn.Image")));
+            this.Show_pass_btn.Location = new System.Drawing.Point(351, 44);
+            this.Show_pass_btn.Name = "Show_pass_btn";
+            this.Show_pass_btn.Size = new System.Drawing.Size(41, 32);
+            this.Show_pass_btn.TabIndex = 96;
+            this.Show_pass_btn.UseVisualStyleBackColor = true;
+            this.Show_pass_btn.Click += new System.EventHandler(this.Show_pass_btn_Click_2);
             // 
             // panel2
             // 
@@ -258,10 +259,10 @@
             this.HM_btn.BackColor = System.Drawing.Color.LightCoral;
             this.HM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HM_btn.Image = ((System.Drawing.Image)(resources.GetObject("HM_btn.Image")));
-            this.HM_btn.Location = new System.Drawing.Point(81, 30);
+            this.HM_btn.Location = new System.Drawing.Point(83, 20);
             this.HM_btn.Name = "HM_btn";
-            this.HM_btn.Size = new System.Drawing.Size(102, 97);
-            this.HM_btn.TabIndex = 208;
+            this.HM_btn.Size = new System.Drawing.Size(117, 118);
+            this.HM_btn.TabIndex = 207;
             this.HM_btn.UseVisualStyleBackColor = false;
             // 
             // HM_Login
@@ -295,7 +296,6 @@
         private System.Windows.Forms.Button Login_btn;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TextBox tbuser;
-        private System.Windows.Forms.Button Show_pass_btn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbpassword;
         private System.Windows.Forms.Label label3;
@@ -304,5 +304,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button HM_btn;
+        private System.Windows.Forms.Button Show_pass_btn;
     }
 }

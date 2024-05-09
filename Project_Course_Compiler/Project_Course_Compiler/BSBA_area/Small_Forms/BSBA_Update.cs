@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.HM_area.Small_Forms
+namespace Project_Course_Compiler.BSBA_area.Small_Forms
 {
-    public partial class HM_Update : Form
+    public partial class BSBA_Update : Form
     {
-        public HM_Update(string Stored_ID)
+        public BSBA_Update(string Stored_ID)
         {
             InitializeComponent();
             Old_ID = Stored_ID;
@@ -21,7 +21,6 @@ namespace Project_Course_Compiler.HM_area.Small_Forms
         }
         string Old_ID;
         string consstring = Program.GlobalConsstring;
-
         void loadCourses(string Stored_ID)
         {
             string sql = "SELECT * FROM Projects WHERE Identifier = @ID";
@@ -89,14 +88,6 @@ namespace Project_Course_Compiler.HM_area.Small_Forms
             }
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
+

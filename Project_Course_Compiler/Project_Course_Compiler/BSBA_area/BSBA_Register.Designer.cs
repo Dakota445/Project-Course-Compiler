@@ -1,6 +1,6 @@
-﻿namespace Project_Course_Compiler.HM_area
+﻿namespace Project_Course_Compiler.BSBA_area
 {
-    partial class HM_Register
+    partial class BSBA_Register
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HM_Register));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSBA_Register));
             this.return_btn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -48,7 +48,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.HM_btn = new System.Windows.Forms.Button();
+            this.BSBA_btn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -62,20 +62,20 @@
             this.return_btn.Location = new System.Drawing.Point(12, 12);
             this.return_btn.Name = "return_btn";
             this.return_btn.Size = new System.Drawing.Size(74, 39);
-            this.return_btn.TabIndex = 207;
+            this.return_btn.TabIndex = 213;
             this.return_btn.Text = "Return";
             this.return_btn.UseVisualStyleBackColor = false;
-            this.return_btn.Click += new System.EventHandler(this.return_btn_Click);
+            this.return_btn.Click += new System.EventHandler(this.return_btn_Click_1);
             // 
             // panel3
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.panel3.BackColor = System.Drawing.Color.LightCoral;
-            this.panel3.Location = new System.Drawing.Point(103, 135);
+            this.panel3.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.panel3.Location = new System.Drawing.Point(104, 129);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(82, 371);
-            this.panel3.TabIndex = 206;
+            this.panel3.TabIndex = 212;
             // 
             // panel1
             // 
@@ -91,7 +91,7 @@
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(464, 297);
-            this.panel1.TabIndex = 205;
+            this.panel1.TabIndex = 211;
             // 
             // Show_Pass_btn
             // 
@@ -264,7 +264,7 @@
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(410, 134);
-            this.panel2.TabIndex = 204;
+            this.panel2.TabIndex = 210;
             // 
             // label5
             // 
@@ -305,32 +305,32 @@
             this.label1.Text = "St. Rita’s College of Balingasag";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // HM_btn
+            // BSBA_btn
             // 
-            this.HM_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.HM_btn.BackColor = System.Drawing.Color.LightCoral;
-            this.HM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HM_btn.Image = ((System.Drawing.Image)(resources.GetObject("HM_btn.Image")));
-            this.HM_btn.Location = new System.Drawing.Point(92, 6);
-            this.HM_btn.Name = "HM_btn";
-            this.HM_btn.Size = new System.Drawing.Size(117, 118);
-            this.HM_btn.TabIndex = 208;
-            this.HM_btn.UseVisualStyleBackColor = false;
+            this.BSBA_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.BSBA_btn.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.BSBA_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BSBA_btn.Image = ((System.Drawing.Image)(resources.GetObject("BSBA_btn.Image")));
+            this.BSBA_btn.Location = new System.Drawing.Point(92, 6);
+            this.BSBA_btn.Name = "BSBA_btn";
+            this.BSBA_btn.Size = new System.Drawing.Size(117, 118);
+            this.BSBA_btn.TabIndex = 214;
+            this.BSBA_btn.UseVisualStyleBackColor = false;
             // 
-            // HM_Register
+            // BSBA_Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 507);
-            this.Controls.Add(this.HM_btn);
+            this.Controls.Add(this.BSBA_btn);
             this.Controls.Add(this.return_btn);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Name = "HM_Register";
+            this.Name = "BSBA_Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HM_Register";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HM_Register_FormClosing);
+            this.Text = "BSBA_Register";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSBA_Register_FormClosing);
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -359,6 +359,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button HM_btn;
+        private System.Windows.Forms.Button BSBA_btn;
     }
 }

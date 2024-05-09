@@ -42,5 +42,19 @@ namespace Project_Course_Compiler
             login.Show();
             this.Hide();
         }
+
+        private void HM_btn_Click(object sender, EventArgs e)
+        {
+            HM_area.HM_Login login = new HM_area.HM_Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void BSBA_btn_Click(object sender, EventArgs e)
+        {
+            BSBA_area.BSBA_Login login = new BSBA_area.BSBA_Login();
+            login.Show();
+            this.Hide();
+        }
     }
 }

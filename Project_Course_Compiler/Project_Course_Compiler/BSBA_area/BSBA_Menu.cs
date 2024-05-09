@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.HM_area
+namespace Project_Course_Compiler.BSBA_area
 {
-    public partial class HM_Menu : Form
+    public partial class BSBA_Menu : Form
     {
-        public HM_Menu()
+        public BSBA_Menu()
         {
             InitializeComponent();
             refreshTable();
@@ -106,14 +106,14 @@ namespace Project_Course_Compiler.HM_area
 
         private void button2_Click(object sender, EventArgs e)
         {
-            HM_area.Small_Forms.HM_Add add = new HM_area.Small_Forms.HM_Add();
+            BSBA_area.Small_Forms.BSBA_Add add = new BSBA_area.Small_Forms.BSBA_Add();
             add.ShowDialog();
             refreshTable();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Small_Forms.HM_Update update = new Small_Forms.HM_Update(Stored_ID);
+            Small_Forms.BSBA_Update update = new Small_Forms.BSBA_Update(Stored_ID);
             update.ShowDialog();
             refreshTable();
         }
@@ -150,9 +150,9 @@ namespace Project_Course_Compiler.HM_area
             show.ShowDialog();
         }
 
-        private void HM_Menu_FormClosing(object sender, FormClosingEventArgs e)
+        private void BSBA_Menu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); 
         }
     }
 }

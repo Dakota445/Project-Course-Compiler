@@ -9,19 +9,35 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Course_Compiler.HM_area
+namespace Project_Course_Compiler.BSBA_area
 {
-    public partial class HM_Register : Form
+    public partial class BSBA_Register : Form
     {
-        public HM_Register()
+        public BSBA_Register()
         {
             InitializeComponent();
         }
         string consstring = Program.GlobalConsstring;
-        string Courseee = "HM";
+        string Courseee = "BSBA";
         private void return_btn_Click(object sender, EventArgs e)
         {
-            HM_area.HM_Login login = new HM_area.HM_Login();
+            Intro_Form intro = new Intro_Form();
+            intro.Show();
+            this.Hide();
+        }
+
+     
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BSBA_area.BSBA_Register register = new BSBA_area.BSBA_Register();
+            register.Show();
+            this.Hide();
+        }
+
+        private void return_btn_Click_1(object sender, EventArgs e)
+        {
+            BSBA_area.BSBA_Login login = new BSBA_area.BSBA_Login();
             login.Show();
             this.Hide();
         }
@@ -92,7 +108,6 @@ namespace Project_Course_Compiler.HM_area
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
-
         private void Show_Pass_btn_Click(object sender, EventArgs e)
         {
             if (PassWBox.PasswordChar == '\0')
@@ -101,9 +116,11 @@ namespace Project_Course_Compiler.HM_area
                 PassWBox.PasswordChar = '\0';
         }
 
-        private void HM_Register_FormClosing(object sender, FormClosingEventArgs e)
+        private void BSBA_Register_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
     }
-}
+    }
+   
+

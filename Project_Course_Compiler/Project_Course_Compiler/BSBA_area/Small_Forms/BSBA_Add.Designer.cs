@@ -1,6 +1,6 @@
-﻿namespace Project_Course_Compiler.HM_area.Small_Forms
+﻿namespace Project_Course_Compiler.BSBA_area.Small_Forms
 {
-    partial class HM_Add
+    partial class BSBA_Add
     {
         /// <summary>
         /// Required designer variable.
@@ -45,14 +45,13 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.LightCoral;
+            this.label7.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(77, 30);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(283, 46);
-            this.label7.TabIndex = 222;
+            this.label7.TabIndex = 225;
             this.label7.Text = "Adding Project";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // add_btn
             // 
@@ -60,7 +59,7 @@
             this.add_btn.Location = new System.Drawing.Point(142, 322);
             this.add_btn.Name = "add_btn";
             this.add_btn.Size = new System.Drawing.Size(133, 37);
-            this.add_btn.TabIndex = 221;
+            this.add_btn.TabIndex = 224;
             this.add_btn.Text = "ADD PROJECT";
             this.add_btn.UseVisualStyleBackColor = true;
             this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
@@ -87,8 +86,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
-            this.tableLayoutPanel1.TabIndex = 220;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            this.tableLayoutPanel1.TabIndex = 223;
             // 
             // label5
             // 
@@ -171,18 +169,18 @@
             this.urlbox.Size = new System.Drawing.Size(260, 26);
             this.urlbox.TabIndex = 235;
             // 
-            // HM_Add
+            // BSBA_Add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightCoral;
+            this.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.ClientSize = new System.Drawing.Size(417, 389);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.add_btn);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "HM_Add";
+            this.Name = "BSBA_Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HM_Add";
+            this.Text = "BSBA_Add";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

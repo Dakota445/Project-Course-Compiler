@@ -1,6 +1,6 @@
-﻿namespace Project_Course_Compiler.HM_area
+﻿namespace Project_Course_Compiler.BSBA_area
 {
-    partial class HM_Menu
+    partial class BSBA_Menu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HM_Menu));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BSBA_Menu));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.HM_btn = new System.Windows.Forms.Button();
+            this.BSBA_btn = new System.Windows.Forms.Button();
             this.Archivebtn = new System.Windows.Forms.Button();
             this.return_btn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -70,34 +70,34 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.LightCoral;
-            this.panel3.Controls.Add(this.HM_btn);
+            this.panel3.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.panel3.Controls.Add(this.BSBA_btn);
             this.panel3.Controls.Add(this.Archivebtn);
             this.panel3.Controls.Add(this.return_btn);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(102, 507);
-            this.panel3.TabIndex = 139;
+            this.panel3.Size = new System.Drawing.Size(117, 507);
+            this.panel3.TabIndex = 140;
             // 
-            // HM_btn
+            // BSBA_btn
             // 
-            this.HM_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.HM_btn.BackColor = System.Drawing.Color.LightCoral;
-            this.HM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.HM_btn.Image = ((System.Drawing.Image)(resources.GetObject("HM_btn.Image")));
-            this.HM_btn.Location = new System.Drawing.Point(0, 181);
-            this.HM_btn.Name = "HM_btn";
-            this.HM_btn.Size = new System.Drawing.Size(102, 97);
-            this.HM_btn.TabIndex = 209;
-            this.HM_btn.UseVisualStyleBackColor = false;
+            this.BSBA_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.BSBA_btn.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.BSBA_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BSBA_btn.Image = ((System.Drawing.Image)(resources.GetObject("BSBA_btn.Image")));
+            this.BSBA_btn.Location = new System.Drawing.Point(0, 170);
+            this.BSBA_btn.Name = "BSBA_btn";
+            this.BSBA_btn.Size = new System.Drawing.Size(117, 118);
+            this.BSBA_btn.TabIndex = 141;
+            this.BSBA_btn.UseVisualStyleBackColor = false;
             // 
             // Archivebtn
             // 
             this.Archivebtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Archivebtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Archivebtn.Location = new System.Drawing.Point(13, 294);
+            this.Archivebtn.Location = new System.Drawing.Point(20, 294);
             this.Archivebtn.Name = "Archivebtn";
             this.Archivebtn.Size = new System.Drawing.Size(75, 37);
             this.Archivebtn.TabIndex = 195;
@@ -127,7 +127,7 @@
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(410, 134);
-            this.panel2.TabIndex = 141;
+            this.panel2.TabIndex = 142;
             // 
             // label5
             // 
@@ -179,7 +179,7 @@
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(547, 242);
-            this.panel1.TabIndex = 200;
+            this.panel1.TabIndex = 201;
             // 
             // tableLayoutPanel1
             // 
@@ -257,10 +257,10 @@
             this.DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightCoral;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkGoldenrod;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.LightCoral;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkGoldenrod;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
@@ -383,7 +383,7 @@
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(415, 46);
-            this.tableLayoutPanel2.TabIndex = 201;
+            this.tableLayoutPanel2.TabIndex = 202;
             // 
             // button1
             // 
@@ -433,7 +433,7 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // HM_Menu
+            // BSBA_Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -442,10 +442,10 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
-            this.Name = "HM_Menu";
+            this.Name = "BSBA_Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "HM_Menu";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HM_Menu_FormClosing);
+            this.Text = "BSBA_Menu";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BSBA_Menu_FormClosing);
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -461,12 +461,17 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button Archivebtn;
         private System.Windows.Forms.Button return_btn;
-        private System.Windows.Forms.Button HM_btn;
+        private System.Windows.Forms.Button BSBA_btn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Button view_url_btn;
+        private System.Windows.Forms.Button Add_btn;
+        private System.Windows.Forms.Button remove_btn;
+        private System.Windows.Forms.Button Edit_btn;
         private System.Windows.Forms.DataGridView DataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Created__By;
@@ -475,11 +480,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Description;
         private System.Windows.Forms.DataGridViewTextBoxColumn Year_Level;
         private System.Windows.Forms.DataGridViewTextBoxColumn URL;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button view_url_btn;
-        private System.Windows.Forms.Button Add_btn;
-        private System.Windows.Forms.Button remove_btn;
-        private System.Windows.Forms.Button Edit_btn;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

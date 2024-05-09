@@ -104,6 +104,36 @@
     <Compile Include="Archive_Form.Designer.cs">
       <DependentUpon>Archive_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="BSBA_area\BSBA_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSBA_area\BSBA_Login.Designer.cs">
+      <DependentUpon>BSBA_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BSBA_area\BSBA_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSBA_area\BSBA_Menu.Designer.cs">
+      <DependentUpon>BSBA_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BSBA_area\BSBA_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSBA_area\BSBA_Register.Designer.cs">
+      <DependentUpon>BSBA_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BSBA_area\Small_Forms\BSBA_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSBA_area\Small_Forms\BSBA_Add.Designer.cs">
+      <DependentUpon>BSBA_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BSBA_area\Small_Forms\BSBA_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BSBA_area\Small_Forms\BSBA_Update.Designer.cs">
+      <DependentUpon>BSBA_Update.cs</DependentUpon>
+    </Compile>
     <Compile Include="CRIM_area\CRIM_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,11 +182,11 @@
     <Compile Include="HM_area\HM_Register.Designer.cs">
       <DependentUpon>HM_Register.cs</DependentUpon>
     </Compile>
-    <Compile Include="HM_area\Small_Forms\HM_Addcs.cs">
+    <Compile Include="HM_area\Small_Forms\HM_Add.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HM_area\Small_Forms\HM_Addcs.Designer.cs">
-      <DependentUpon>HM_Addcs.cs</DependentUpon>
+    <Compile Include="HM_area\Small_Forms\HM_Add.Designer.cs">
+      <DependentUpon>HM_Add.cs</DependentUpon>
     </Compile>
     <Compile Include="HM_area\Small_Forms\HM_Update.cs">
       <SubType>Form</SubType>
@@ -241,6 +271,21 @@
     <EmbeddedResource Include="Archive_Form.resx">
       <DependentUpon>Archive_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BSBA_area\BSBA_Login.resx">
+      <DependentUpon>BSBA_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSBA_area\BSBA_Menu.resx">
+      <DependentUpon>BSBA_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSBA_area\BSBA_Register.resx">
+      <DependentUpon>BSBA_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSBA_area\Small_Forms\BSBA_Add.resx">
+      <DependentUpon>BSBA_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BSBA_area\Small_Forms\BSBA_Update.resx">
+      <DependentUpon>BSBA_Update.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRIM_area\CRIM_Login.resx">
       <DependentUpon>CRIM_Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -265,8 +310,8 @@
     <EmbeddedResource Include="HM_area\HM_Register.resx">
       <DependentUpon>HM_Register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HM_area\Small_Forms\HM_Addcs.resx">
-      <DependentUpon>HM_Addcs.cs</DependentUpon>
+    <EmbeddedResource Include="HM_area\Small_Forms\HM_Add.resx">
+      <DependentUpon>HM_Add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HM_area\Small_Forms\HM_Update.resx">
       <DependentUpon>HM_Update.cs</DependentUpon>
@@ -330,8 +375,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BSBA_area\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
