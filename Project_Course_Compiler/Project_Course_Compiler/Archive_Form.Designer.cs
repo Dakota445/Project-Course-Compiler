@@ -1,6 +1,6 @@
 ﻿namespace Project_Course_Compiler
 {
-    partial class Archive_From
+    partial class Archive_Form
     {
         /// <summary>
         /// Required designer variable.

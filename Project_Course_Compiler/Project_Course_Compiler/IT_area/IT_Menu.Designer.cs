@@ -34,8 +34,8 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.IT_btn = new System.Windows.Forms.Button();
             this.Archivebtn = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.return_btn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -56,7 +56,6 @@
             this.Year_Level = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.URL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -66,48 +65,48 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Maroon;
+            this.panel3.Controls.Add(this.IT_btn);
             this.panel3.Controls.Add(this.Archivebtn);
-            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.return_btn);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(149, 624);
+            this.panel3.Size = new System.Drawing.Size(112, 507);
             this.panel3.TabIndex = 138;
+            // 
+            // IT_btn
+            // 
+            this.IT_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.IT_btn.BackColor = System.Drawing.Color.Maroon;
+            this.IT_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.IT_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.IT_btn.Image = ((System.Drawing.Image)(resources.GetObject("IT_btn.Image")));
+            this.IT_btn.Location = new System.Drawing.Point(7, 181);
+            this.IT_btn.Name = "IT_btn";
+            this.IT_btn.Size = new System.Drawing.Size(102, 97);
+            this.IT_btn.TabIndex = 202;
+            this.IT_btn.UseVisualStyleBackColor = false;
             // 
             // Archivebtn
             // 
             this.Archivebtn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Archivebtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Archivebtn.Location = new System.Drawing.Point(24, 362);
-            this.Archivebtn.Margin = new System.Windows.Forms.Padding(4);
+            this.Archivebtn.Location = new System.Drawing.Point(18, 294);
             this.Archivebtn.Name = "Archivebtn";
-            this.Archivebtn.Size = new System.Drawing.Size(100, 46);
+            this.Archivebtn.Size = new System.Drawing.Size(75, 37);
             this.Archivebtn.TabIndex = 195;
             this.Archivebtn.Text = "ARCHIVE";
             this.Archivebtn.UseVisualStyleBackColor = true;
             this.Archivebtn.Click += new System.EventHandler(this.Archivebtn_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 223);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(116, 119);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 137;
-            this.pictureBox2.TabStop = false;
-            // 
             // return_btn
             // 
             this.return_btn.BackColor = System.Drawing.Color.White;
             this.return_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.return_btn.Location = new System.Drawing.Point(25, 13);
-            this.return_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.return_btn.Location = new System.Drawing.Point(19, 11);
             this.return_btn.Name = "return_btn";
-            this.return_btn.Size = new System.Drawing.Size(99, 48);
+            this.return_btn.Size = new System.Drawing.Size(74, 39);
             this.return_btn.TabIndex = 139;
             this.return_btn.Text = "Logout";
             this.return_btn.UseVisualStyleBackColor = false;
@@ -119,9 +118,10 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(193, 13);
+            this.panel2.Location = new System.Drawing.Point(145, 11);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(547, 165);
+            this.panel2.Size = new System.Drawing.Size(410, 134);
             this.panel2.TabIndex = 140;
             // 
             // label5
@@ -129,9 +129,10 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label5.Location = new System.Drawing.Point(10, 101);
+            this.label5.Location = new System.Drawing.Point(8, 82);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(534, 37);
+            this.label5.Size = new System.Drawing.Size(400, 30);
             this.label5.TabIndex = 21;
             this.label5.Text = "HIGHER EDUCATION DEPARTMENT";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,9 +142,10 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label4.Location = new System.Drawing.Point(6, 64);
+            this.label4.Location = new System.Drawing.Point(4, 52);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(534, 37);
+            this.label4.Size = new System.Drawing.Size(400, 30);
             this.label4.TabIndex = 20;
             this.label4.Text = "Balingasag Misamis Oriental";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -153,9 +155,10 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.Location = new System.Drawing.Point(10, 27);
+            this.label1.Location = new System.Drawing.Point(8, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(534, 37);
+            this.label1.Size = new System.Drawing.Size(400, 30);
             this.label1.TabIndex = 19;
             this.label1.Text = "St. Rita’s College of Balingasag";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -164,10 +167,9 @@
             // 
             this.Add_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Add_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Add_btn.Location = new System.Drawing.Point(4, 4);
-            this.Add_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.Add_btn.Location = new System.Drawing.Point(3, 3);
             this.Add_btn.Name = "Add_btn";
-            this.Add_btn.Size = new System.Drawing.Size(111, 48);
+            this.Add_btn.Size = new System.Drawing.Size(83, 40);
             this.Add_btn.TabIndex = 196;
             this.Add_btn.Text = "ADD";
             this.Add_btn.UseVisualStyleBackColor = true;
@@ -177,10 +179,9 @@
             // 
             this.Edit_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Edit_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Edit_btn.Location = new System.Drawing.Point(157, 4);
-            this.Edit_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.Edit_btn.Location = new System.Drawing.Point(117, 3);
             this.Edit_btn.Name = "Edit_btn";
-            this.Edit_btn.Size = new System.Drawing.Size(105, 48);
+            this.Edit_btn.Size = new System.Drawing.Size(78, 40);
             this.Edit_btn.TabIndex = 193;
             this.Edit_btn.Text = "EDIT";
             this.Edit_btn.UseVisualStyleBackColor = true;
@@ -203,21 +204,21 @@
             this.tableLayoutPanel1.Controls.Add(this.Add_btn, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.remove_btn, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.Edit_btn, 2, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(242, 546);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(182, 444);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(553, 56);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(415, 46);
             this.tableLayoutPanel1.TabIndex = 198;
             // 
             // view_url_btn
             // 
             this.view_url_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.view_url_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.view_url_btn.Location = new System.Drawing.Point(425, 4);
-            this.view_url_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.view_url_btn.Location = new System.Drawing.Point(316, 3);
             this.view_url_btn.Name = "view_url_btn";
-            this.view_url_btn.Size = new System.Drawing.Size(124, 48);
+            this.view_url_btn.Size = new System.Drawing.Size(96, 40);
             this.view_url_btn.TabIndex = 200;
             this.view_url_btn.Text = "View URL";
             this.view_url_btn.UseVisualStyleBackColor = true;
@@ -227,10 +228,9 @@
             // 
             this.remove_btn.Dock = System.Windows.Forms.DockStyle.Fill;
             this.remove_btn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.remove_btn.Location = new System.Drawing.Point(291, 4);
-            this.remove_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.remove_btn.Location = new System.Drawing.Point(216, 3);
             this.remove_btn.Name = "remove_btn";
-            this.remove_btn.Size = new System.Drawing.Size(102, 48);
+            this.remove_btn.Size = new System.Drawing.Size(76, 40);
             this.remove_btn.TabIndex = 199;
             this.remove_btn.Text = "REMOVE";
             this.remove_btn.UseVisualStyleBackColor = true;
@@ -242,9 +242,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.DataGridView1);
-            this.panel1.Location = new System.Drawing.Point(168, 223);
+            this.panel1.Location = new System.Drawing.Point(126, 181);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(729, 298);
+            this.panel1.Size = new System.Drawing.Size(547, 242);
             this.panel1.TabIndex = 199;
             // 
             // DataGridView1
@@ -282,7 +283,7 @@
             this.DataGridView1.EnableHeadersVisualStyles = false;
             this.DataGridView1.GridColor = System.Drawing.Color.Silver;
             this.DataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.DataGridView1.Margin = new System.Windows.Forms.Padding(3, 1, 3, 1);
+            this.DataGridView1.Margin = new System.Windows.Forms.Padding(2, 1, 2, 1);
             this.DataGridView1.MultiSelect = false;
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.ReadOnly = true;
@@ -305,8 +306,9 @@
             this.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DataGridView1.ShowCellToolTips = false;
             this.DataGridView1.ShowEditingIcon = false;
-            this.DataGridView1.Size = new System.Drawing.Size(729, 298);
+            this.DataGridView1.Size = new System.Drawing.Size(547, 242);
             this.DataGridView1.TabIndex = 31;
+            this.DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
             // ID
             // 
@@ -359,20 +361,20 @@
             // 
             // IT_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(926, 624);
+            this.ClientSize = new System.Drawing.Size(694, 507);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IT_Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IT_Menu";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IT_Menu_FormClosing);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -384,7 +386,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button return_btn;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
@@ -405,5 +406,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Description;
         private System.Windows.Forms.DataGridViewTextBoxColumn Year_Level;
         private System.Windows.Forms.DataGridViewTextBoxColumn URL;
+        private System.Windows.Forms.Button IT_btn;
     }
 }

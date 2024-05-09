@@ -142,7 +142,7 @@ namespace Project_Course_Compiler.IT_area
 
         private void Archivebtn_Click(object sender, EventArgs e)
         {
-            Archive_From view = new Archive_From();
+            Archive_Form view = new Archive_Form();
             view.ShowDialog();
             refreshTable();
         }
@@ -157,6 +157,11 @@ namespace Project_Course_Compiler.IT_area
         private void IT_Menu_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -28,5 +28,19 @@ namespace Project_Course_Compiler
         {
             Application.Exit();
         }
+
+        private void CRIM_btn_Click(object sender, EventArgs e)
+        {
+            CRIM_area.CRIM_Login login = new CRIM_area.CRIM_Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void TEP_btn_Click(object sender, EventArgs e)
+        {
+            TEP_area.TEP_Login login = new TEP_area.TEP_Login();
+            login.Show();
+            this.Hide();
+        }
     }
 }

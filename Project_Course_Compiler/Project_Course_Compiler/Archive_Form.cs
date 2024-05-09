@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Project_Course_Compiler
 {
-    public partial class Archive_From : Form
+    public partial class Archive_Form : Form
     {
-        public Archive_From()
+        public Archive_Form()
         {
             InitializeComponent();
             DataGridView1.CellClick += DataGrid_CellClick; // Attach event handler

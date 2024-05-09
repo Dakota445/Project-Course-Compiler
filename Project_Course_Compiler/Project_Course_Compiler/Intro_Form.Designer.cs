@@ -53,10 +53,9 @@
             this.HM_btn.BackColor = System.Drawing.Color.LightCoral;
             this.HM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HM_btn.Image = ((System.Drawing.Image)(resources.GetObject("HM_btn.Image")));
-            this.HM_btn.Location = new System.Drawing.Point(706, 351);
-            this.HM_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.HM_btn.Location = new System.Drawing.Point(530, 285);
             this.HM_btn.Name = "HM_btn";
-            this.HM_btn.Size = new System.Drawing.Size(156, 145);
+            this.HM_btn.Size = new System.Drawing.Size(117, 118);
             this.HM_btn.TabIndex = 16;
             this.HM_btn.UseVisualStyleBackColor = false;
             // 
@@ -66,12 +65,12 @@
             this.TEP_btn.BackColor = System.Drawing.Color.Blue;
             this.TEP_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TEP_btn.Image = ((System.Drawing.Image)(resources.GetObject("TEP_btn.Image")));
-            this.TEP_btn.Location = new System.Drawing.Point(542, 351);
-            this.TEP_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.TEP_btn.Location = new System.Drawing.Point(406, 285);
             this.TEP_btn.Name = "TEP_btn";
-            this.TEP_btn.Size = new System.Drawing.Size(156, 145);
+            this.TEP_btn.Size = new System.Drawing.Size(117, 118);
             this.TEP_btn.TabIndex = 15;
             this.TEP_btn.UseVisualStyleBackColor = false;
+            this.TEP_btn.Click += new System.EventHandler(this.TEP_btn_Click);
             // 
             // BSBA_btn
             // 
@@ -79,10 +78,9 @@
             this.BSBA_btn.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.BSBA_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BSBA_btn.Image = ((System.Drawing.Image)(resources.GetObject("BSBA_btn.Image")));
-            this.BSBA_btn.Location = new System.Drawing.Point(378, 351);
-            this.BSBA_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.BSBA_btn.Location = new System.Drawing.Point(284, 285);
             this.BSBA_btn.Name = "BSBA_btn";
-            this.BSBA_btn.Size = new System.Drawing.Size(156, 145);
+            this.BSBA_btn.Size = new System.Drawing.Size(117, 118);
             this.BSBA_btn.TabIndex = 14;
             this.BSBA_btn.UseVisualStyleBackColor = false;
             // 
@@ -93,10 +91,9 @@
             this.IT_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.IT_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IT_btn.Image = ((System.Drawing.Image)(resources.GetObject("IT_btn.Image")));
-            this.IT_btn.Location = new System.Drawing.Point(50, 351);
-            this.IT_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.IT_btn.Location = new System.Drawing.Point(38, 285);
             this.IT_btn.Name = "IT_btn";
-            this.IT_btn.Size = new System.Drawing.Size(156, 145);
+            this.IT_btn.Size = new System.Drawing.Size(117, 118);
             this.IT_btn.TabIndex = 13;
             this.IT_btn.UseVisualStyleBackColor = false;
             this.IT_btn.Click += new System.EventHandler(this.IT_btn_Click);
@@ -107,21 +104,22 @@
             this.CRIM_btn.BackColor = System.Drawing.Color.Navy;
             this.CRIM_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CRIM_btn.Image = ((System.Drawing.Image)(resources.GetObject("CRIM_btn.Image")));
-            this.CRIM_btn.Location = new System.Drawing.Point(214, 351);
-            this.CRIM_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.CRIM_btn.Location = new System.Drawing.Point(160, 285);
             this.CRIM_btn.Name = "CRIM_btn";
-            this.CRIM_btn.Size = new System.Drawing.Size(156, 145);
+            this.CRIM_btn.Size = new System.Drawing.Size(117, 118);
             this.CRIM_btn.TabIndex = 12;
             this.CRIM_btn.UseVisualStyleBackColor = false;
+            this.CRIM_btn.Click += new System.EventHandler(this.CRIM_btn_Click);
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(22, 78);
+            this.label2.Location = new System.Drawing.Point(16, 63);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(785, 63);
+            this.label2.Size = new System.Drawing.Size(589, 51);
             this.label2.TabIndex = 17;
             this.label2.Text = "Create a project course compiler to which you may contribute and receive the most" +
     " recent academic resources for your course, including documents and any availabl" +
@@ -133,9 +131,10 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label3.Location = new System.Drawing.Point(132, -2);
+            this.label3.Location = new System.Drawing.Point(99, -2);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(527, 80);
+            this.label3.Size = new System.Drawing.Size(395, 65);
             this.label3.TabIndex = 18;
             this.label3.Text = "PROJECT COURSE COMPILER";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -145,9 +144,10 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.Location = new System.Drawing.Point(10, 27);
+            this.label1.Location = new System.Drawing.Point(8, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(534, 37);
+            this.label1.Size = new System.Drawing.Size(400, 30);
             this.label1.TabIndex = 19;
             this.label1.Text = "St. Rita’s College of Balingasag";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -160,9 +160,10 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(39, 203);
+            this.panel1.Location = new System.Drawing.Point(29, 165);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(837, 141);
+            this.panel1.Size = new System.Drawing.Size(628, 115);
             this.panel1.TabIndex = 20;
             // 
             // panel2
@@ -171,9 +172,10 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(177, 12);
+            this.panel2.Location = new System.Drawing.Point(133, 10);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(547, 165);
+            this.panel2.Size = new System.Drawing.Size(410, 134);
             this.panel2.TabIndex = 21;
             // 
             // label5
@@ -181,9 +183,10 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label5.Location = new System.Drawing.Point(10, 101);
+            this.label5.Location = new System.Drawing.Point(8, 82);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(534, 37);
+            this.label5.Size = new System.Drawing.Size(400, 30);
             this.label5.TabIndex = 21;
             this.label5.Text = "HIGHER EDUCATION DEPARTMENT";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -193,9 +196,10 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label4.Location = new System.Drawing.Point(6, 64);
+            this.label4.Location = new System.Drawing.Point(4, 52);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(534, 37);
+            this.label4.Size = new System.Drawing.Size(400, 30);
             this.label4.TabIndex = 20;
             this.label4.Text = "Balingasag Misamis Oriental";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -204,20 +208,19 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(71, 39);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(53, 32);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 121);
+            this.pictureBox1.Size = new System.Drawing.Size(101, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
             // Intro_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(926, 535);
+            this.ClientSize = new System.Drawing.Size(694, 435);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -226,6 +229,7 @@
             this.Controls.Add(this.BSBA_btn);
             this.Controls.Add(this.IT_btn);
             this.Controls.Add(this.CRIM_btn);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Intro_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main Form";

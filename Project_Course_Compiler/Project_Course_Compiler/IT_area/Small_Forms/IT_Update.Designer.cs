@@ -43,22 +43,20 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.BackColor = System.Drawing.Color.Maroon;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(99, 37);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(74, 30);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(349, 57);
+            this.label7.Size = new System.Drawing.Size(283, 46);
             this.label7.TabIndex = 222;
             this.label7.Text = "Update Project";
             // 
             // add_btn
             // 
             this.add_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.add_btn.Location = new System.Drawing.Point(186, 396);
-            this.add_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.add_btn.Location = new System.Drawing.Point(140, 322);
             this.add_btn.Name = "add_btn";
-            this.add_btn.Size = new System.Drawing.Size(177, 46);
+            this.add_btn.Size = new System.Drawing.Size(133, 37);
             this.add_btn.TabIndex = 221;
             this.add_btn.Text = "SAVE";
             this.add_btn.UseVisualStyleBackColor = true;
@@ -75,13 +73,14 @@
             this.tableLayoutPanel1.Controls.Add(this.titlebox, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.descriptionbox, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.urlbox, 1, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(35, 135);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(26, 110);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(478, 239);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
             this.tableLayoutPanel1.TabIndex = 220;
             // 
             // label5
@@ -89,10 +88,9 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(84, 186);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(59, 151);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 24);
+            this.label5.Size = new System.Drawing.Size(30, 20);
             this.label5.TabIndex = 231;
             this.label5.Text = "url:";
             // 
@@ -101,10 +99,9 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 106);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(5, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 24);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 224;
             this.label2.Text = "Description:";
             // 
@@ -113,10 +110,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(32, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 24);
+            this.label1.Size = new System.Drawing.Size(57, 40);
             this.label1.TabIndex = 223;
             this.label1.Text = "Project Title:";
             // 
@@ -124,42 +120,40 @@
             // 
             this.titlebox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.titlebox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titlebox.Location = new System.Drawing.Point(127, 24);
-            this.titlebox.Margin = new System.Windows.Forms.Padding(4);
+            this.titlebox.Location = new System.Drawing.Point(95, 19);
             this.titlebox.Name = "titlebox";
-            this.titlebox.Size = new System.Drawing.Size(346, 30);
+            this.titlebox.Size = new System.Drawing.Size(260, 26);
             this.titlebox.TabIndex = 232;
             // 
             // descriptionbox
             // 
             this.descriptionbox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.descriptionbox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descriptionbox.Location = new System.Drawing.Point(127, 103);
-            this.descriptionbox.Margin = new System.Windows.Forms.Padding(4);
+            this.descriptionbox.Location = new System.Drawing.Point(95, 83);
             this.descriptionbox.Name = "descriptionbox";
-            this.descriptionbox.Size = new System.Drawing.Size(346, 30);
+            this.descriptionbox.Size = new System.Drawing.Size(260, 26);
             this.descriptionbox.TabIndex = 234;
             // 
             // urlbox
             // 
             this.urlbox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.urlbox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.urlbox.Location = new System.Drawing.Point(127, 183);
-            this.urlbox.Margin = new System.Windows.Forms.Padding(4);
+            this.urlbox.Location = new System.Drawing.Point(95, 148);
             this.urlbox.Name = "urlbox";
-            this.urlbox.Size = new System.Drawing.Size(346, 30);
+            this.urlbox.Size = new System.Drawing.Size(260, 26);
             this.urlbox.TabIndex = 235;
             // 
             // IT_Update
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(556, 479);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(417, 389);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.add_btn);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "IT_Update";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IT Update";

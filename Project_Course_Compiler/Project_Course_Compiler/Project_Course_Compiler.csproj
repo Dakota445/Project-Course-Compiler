@@ -98,11 +98,71 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Archive_From.cs">
+    <Compile Include="Archive_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Archive_From.Designer.cs">
-      <DependentUpon>Archive_From.cs</DependentUpon>
+    <Compile Include="Archive_Form.Designer.cs">
+      <DependentUpon>Archive_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRIM_area\CRIM_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRIM_area\CRIM_Login.Designer.cs">
+      <DependentUpon>CRIM_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRIM_area\CRIM_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRIM_area\CRIM_Menu.Designer.cs">
+      <DependentUpon>CRIM_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRIM_area\CRIM_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRIM_area\CRIM_Register.Designer.cs">
+      <DependentUpon>CRIM_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRIM_area\Small_Forms\CRIM_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRIM_area\Small_Forms\CRIM_Add.Designer.cs">
+      <DependentUpon>CRIM_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRIM_area\Small_Forms\CRIM_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRIM_area\Small_Forms\CRIM_Update.Designer.cs">
+      <DependentUpon>CRIM_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HM_area\HM_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HM_area\HM_Login.Designer.cs">
+      <DependentUpon>HM_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HM_area\HM_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HM_area\HM_Menu.Designer.cs">
+      <DependentUpon>HM_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HM_area\HM_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HM_area\HM_Register.Designer.cs">
+      <DependentUpon>HM_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HM_area\Small_Forms\HM_Addcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HM_area\Small_Forms\HM_Addcs.Designer.cs">
+      <DependentUpon>HM_Addcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HM_area\Small_Forms\HM_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HM_area\Small_Forms\HM_Update.Designer.cs">
+      <DependentUpon>HM_Update.cs</DependentUpon>
     </Compile>
     <Compile Include="IT_area\IT_Login.cs">
       <SubType>Form</SubType>
@@ -148,8 +208,68 @@
     <Compile Include="Show_URL_Form.Designer.cs">
       <DependentUpon>Show_URL_Form.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Archive_From.resx">
-      <DependentUpon>Archive_From.cs</DependentUpon>
+    <Compile Include="TEP_area\Small_Forms\TEP_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEP_area\Small_Forms\TEP_Add.Designer.cs">
+      <DependentUpon>TEP_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEP_area\Small_Forms\TEP_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEP_area\Small_Forms\TEP_Update.Designer.cs">
+      <DependentUpon>TEP_Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEP_area\TEP_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEP_area\TEP_Login.Designer.cs">
+      <DependentUpon>TEP_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEP_area\TEP_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEP_area\TEP_Menu.Designer.cs">
+      <DependentUpon>TEP_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEP_area\TEP_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEP_area\TEP_Register.Designer.cs">
+      <DependentUpon>TEP_Register.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Archive_Form.resx">
+      <DependentUpon>Archive_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRIM_area\CRIM_Login.resx">
+      <DependentUpon>CRIM_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRIM_area\CRIM_Menu.resx">
+      <DependentUpon>CRIM_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRIM_area\CRIM_Register.resx">
+      <DependentUpon>CRIM_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRIM_area\Small_Forms\CRIM_Add.resx">
+      <DependentUpon>CRIM_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRIM_area\Small_Forms\CRIM_Update.resx">
+      <DependentUpon>CRIM_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HM_area\HM_Login.resx">
+      <DependentUpon>HM_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HM_area\HM_Menu.resx">
+      <DependentUpon>HM_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HM_area\HM_Register.resx">
+      <DependentUpon>HM_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HM_area\Small_Forms\HM_Addcs.resx">
+      <DependentUpon>HM_Addcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HM_area\Small_Forms\HM_Update.resx">
+      <DependentUpon>HM_Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IT_area\IT_Login.resx">
       <DependentUpon>IT_Login.cs</DependentUpon>
@@ -181,6 +301,21 @@
     <EmbeddedResource Include="Show_URL_Form.resx">
       <DependentUpon>Show_URL_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TEP_area\Small_Forms\TEP_Add.resx">
+      <DependentUpon>TEP_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEP_area\Small_Forms\TEP_Update.resx">
+      <DependentUpon>TEP_Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEP_area\TEP_Login.resx">
+      <DependentUpon>TEP_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEP_area\TEP_Menu.resx">
+      <DependentUpon>TEP_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEP_area\TEP_Register.resx">
+      <DependentUpon>TEP_Register.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -197,9 +332,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BSBA_area\" />
-    <Folder Include="CRIM_area\" />
-    <Folder Include="HM_area\" />
-    <Folder Include="TEP_area\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

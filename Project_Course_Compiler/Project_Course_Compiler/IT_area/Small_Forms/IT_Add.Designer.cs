@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.titlebox = new System.Windows.Forms.TextBox();
@@ -55,49 +55,47 @@
             this.tableLayoutPanel1.Controls.Add(this.dateTimePicker1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.descriptionbox, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.urlbox, 1, 3);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(32, 136);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(24, 110);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(478, 239);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(358, 194);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 135);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 24);
-            this.label2.TabIndex = 224;
-            this.label2.Text = "Description:";
             // 
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(85, 196);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(59, 159);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 24);
+            this.label5.Size = new System.Drawing.Size(30, 20);
             this.label5.TabIndex = 231;
             this.label5.Text = "url:";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(5, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(84, 20);
+            this.label2.TabIndex = 224;
+            this.label2.Text = "Description:";
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(70, 76);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(49, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 24);
+            this.label3.Size = new System.Drawing.Size(40, 20);
             this.label3.TabIndex = 226;
             this.label3.Text = "Date:";
             // 
@@ -106,10 +104,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 17);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(32, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 24);
+            this.label1.Size = new System.Drawing.Size(57, 40);
             this.label1.TabIndex = 223;
             this.label1.Text = "Project Title:";
             // 
@@ -117,20 +114,18 @@
             // 
             this.titlebox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.titlebox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titlebox.Location = new System.Drawing.Point(128, 14);
-            this.titlebox.Margin = new System.Windows.Forms.Padding(4);
+            this.titlebox.Location = new System.Drawing.Point(95, 11);
             this.titlebox.Name = "titlebox";
-            this.titlebox.Size = new System.Drawing.Size(346, 30);
+            this.titlebox.Size = new System.Drawing.Size(260, 26);
             this.titlebox.TabIndex = 232;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(128, 75);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(95, 60);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(346, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(260, 23);
             this.dateTimePicker1.TabIndex = 233;
             this.dateTimePicker1.Value = new System.DateTime(2024, 5, 3, 22, 30, 6, 0);
             // 
@@ -138,29 +133,26 @@
             // 
             this.descriptionbox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.descriptionbox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descriptionbox.Location = new System.Drawing.Point(128, 132);
-            this.descriptionbox.Margin = new System.Windows.Forms.Padding(4);
+            this.descriptionbox.Location = new System.Drawing.Point(95, 107);
             this.descriptionbox.Name = "descriptionbox";
-            this.descriptionbox.Size = new System.Drawing.Size(346, 30);
+            this.descriptionbox.Size = new System.Drawing.Size(260, 26);
             this.descriptionbox.TabIndex = 234;
             // 
             // urlbox
             // 
             this.urlbox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.urlbox.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.urlbox.Location = new System.Drawing.Point(128, 193);
-            this.urlbox.Margin = new System.Windows.Forms.Padding(4);
+            this.urlbox.Location = new System.Drawing.Point(95, 156);
             this.urlbox.Name = "urlbox";
-            this.urlbox.Size = new System.Drawing.Size(346, 30);
+            this.urlbox.Size = new System.Drawing.Size(260, 26);
             this.urlbox.TabIndex = 235;
             // 
             // add_btn
             // 
             this.add_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.add_btn.Location = new System.Drawing.Point(183, 397);
-            this.add_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.add_btn.Location = new System.Drawing.Point(137, 323);
             this.add_btn.Name = "add_btn";
-            this.add_btn.Size = new System.Drawing.Size(177, 46);
+            this.add_btn.Size = new System.Drawing.Size(133, 37);
             this.add_btn.TabIndex = 218;
             this.add_btn.Text = "ADD PROJECT";
             this.add_btn.UseVisualStyleBackColor = true;
@@ -169,25 +161,25 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.BackColor = System.Drawing.Color.Maroon;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(96, 38);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(72, 31);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(357, 58);
+            this.label7.Size = new System.Drawing.Size(283, 46);
             this.label7.TabIndex = 219;
             this.label7.Text = "Adding Project";
             // 
             // IT_Add
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(556, 479);
+            this.BackColor = System.Drawing.Color.Maroon;
+            this.ClientSize = new System.Drawing.Size(417, 389);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.add_btn);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "IT_Add";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IT Add";

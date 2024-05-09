@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IT_Register));
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -49,23 +48,11 @@
             this.RegisterBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.return_btn = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.IT_btn = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(102, 39);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(116, 119);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 82;
-            this.pictureBox2.TabStop = false;
             // 
             // panel2
             // 
@@ -73,9 +60,10 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(201, 12);
+            this.panel2.Location = new System.Drawing.Point(216, 22);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(547, 165);
+            this.panel2.Size = new System.Drawing.Size(410, 134);
             this.panel2.TabIndex = 81;
             // 
             // label5
@@ -83,9 +71,10 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label5.Location = new System.Drawing.Point(10, 101);
+            this.label5.Location = new System.Drawing.Point(8, 82);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(534, 37);
+            this.label5.Size = new System.Drawing.Size(400, 30);
             this.label5.TabIndex = 21;
             this.label5.Text = "HIGHER EDUCATION DEPARTMENT";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,9 +84,10 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label4.Location = new System.Drawing.Point(6, 64);
+            this.label4.Location = new System.Drawing.Point(4, 52);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(534, 37);
+            this.label4.Size = new System.Drawing.Size(400, 30);
             this.label4.TabIndex = 20;
             this.label4.Text = "Balingasag Misamis Oriental";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -107,9 +97,10 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.Location = new System.Drawing.Point(10, 27);
+            this.label1.Location = new System.Drawing.Point(8, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(534, 37);
+            this.label1.Size = new System.Drawing.Size(400, 30);
             this.label1.TabIndex = 19;
             this.label1.Text = "St. Rita’s College of Balingasag";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -119,9 +110,10 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(22, 39);
+            this.label6.Location = new System.Drawing.Point(16, 32);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(451, 55);
+            this.label6.Size = new System.Drawing.Size(338, 45);
             this.label6.TabIndex = 133;
             this.label6.Text = "IT REGISTER AREA";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -140,15 +132,16 @@
             this.tableLayoutPanel1.Controls.Add(this.PassWBox, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label8, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label9, 0, 3);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(9, 13);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(7, 11);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(596, 239);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(447, 194);
             this.tableLayoutPanel1.TabIndex = 134;
             // 
             // yearbox
@@ -163,9 +156,10 @@
             "2",
             "3",
             "4"});
-            this.yearbox.Location = new System.Drawing.Point(159, 121);
+            this.yearbox.Location = new System.Drawing.Point(119, 98);
+            this.yearbox.Margin = new System.Windows.Forms.Padding(2);
             this.yearbox.Name = "yearbox";
-            this.yearbox.Size = new System.Drawing.Size(434, 42);
+            this.yearbox.Size = new System.Drawing.Size(326, 36);
             this.yearbox.TabIndex = 138;
             // 
             // label3
@@ -175,10 +169,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(52, 78);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(33, 64);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
+            this.label3.Size = new System.Drawing.Size(81, 16);
             this.label3.TabIndex = 107;
             this.label3.Text = "Full Name:";
             // 
@@ -189,10 +182,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(52, 19);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(34, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 20);
+            this.label2.Size = new System.Drawing.Size(80, 16);
             this.label2.TabIndex = 106;
             this.label2.Text = "Student Id:";
             // 
@@ -200,31 +192,28 @@
             // 
             this.StudentIdBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.StudentIdBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentIdBox.Location = new System.Drawing.Point(160, 4);
-            this.StudentIdBox.Margin = new System.Windows.Forms.Padding(4);
+            this.StudentIdBox.Location = new System.Drawing.Point(120, 3);
             this.StudentIdBox.Name = "StudentIdBox";
-            this.StudentIdBox.Size = new System.Drawing.Size(432, 41);
+            this.StudentIdBox.Size = new System.Drawing.Size(324, 34);
             this.StudentIdBox.TabIndex = 105;
             // 
             // NameBox
             // 
             this.NameBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.NameBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameBox.Location = new System.Drawing.Point(160, 63);
-            this.NameBox.Margin = new System.Windows.Forms.Padding(4);
+            this.NameBox.Location = new System.Drawing.Point(120, 51);
             this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(432, 41);
+            this.NameBox.Size = new System.Drawing.Size(324, 34);
             this.NameBox.TabIndex = 108;
             // 
             // PassWBox
             // 
             this.PassWBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PassWBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PassWBox.Location = new System.Drawing.Point(160, 181);
-            this.PassWBox.Margin = new System.Windows.Forms.Padding(4);
+            this.PassWBox.Location = new System.Drawing.Point(120, 147);
             this.PassWBox.Name = "PassWBox";
             this.PassWBox.PasswordChar = '*';
-            this.PassWBox.Size = new System.Drawing.Size(432, 41);
+            this.PassWBox.Size = new System.Drawing.Size(324, 34);
             this.PassWBox.TabIndex = 111;
             // 
             // label8
@@ -234,10 +223,9 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(54, 137);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(32, 112);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 20);
+            this.label8.Size = new System.Drawing.Size(82, 16);
             this.label8.TabIndex = 113;
             this.label8.Text = "Year level:";
             // 
@@ -248,10 +236,9 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(55, 198);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(35, 161);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 20);
+            this.label9.Size = new System.Drawing.Size(79, 16);
             this.label9.TabIndex = 114;
             this.label9.Text = "Password:";
             // 
@@ -265,19 +252,19 @@
             this.panel1.Controls.Add(this.RegisterBtn);
             this.panel1.Controls.Add(this.tableLayoutPanel1);
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(216, 228);
+            this.panel1.Location = new System.Drawing.Point(216, 170);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(619, 365);
+            this.panel1.Size = new System.Drawing.Size(464, 297);
             this.panel1.TabIndex = 135;
             // 
             // Show_Pass_btn
             // 
             this.Show_Pass_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Show_Pass_btn.Image = ((System.Drawing.Image)(resources.GetObject("Show_Pass_btn.Image")));
-            this.Show_Pass_btn.Location = new System.Drawing.Point(549, 270);
-            this.Show_Pass_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.Show_Pass_btn.Location = new System.Drawing.Point(412, 219);
             this.Show_Pass_btn.Name = "Show_Pass_btn";
-            this.Show_Pass_btn.Size = new System.Drawing.Size(56, 39);
+            this.Show_Pass_btn.Size = new System.Drawing.Size(42, 32);
             this.Show_Pass_btn.TabIndex = 136;
             this.Show_Pass_btn.UseVisualStyleBackColor = true;
             this.Show_Pass_btn.Click += new System.EventHandler(this.Show_Pass_btn_Click);
@@ -287,10 +274,9 @@
             this.RegisterBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RegisterBtn.BackColor = System.Drawing.Color.White;
             this.RegisterBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterBtn.Location = new System.Drawing.Point(207, 259);
-            this.RegisterBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.RegisterBtn.Location = new System.Drawing.Point(155, 210);
             this.RegisterBtn.Name = "RegisterBtn";
-            this.RegisterBtn.Size = new System.Drawing.Size(200, 58);
+            this.RegisterBtn.Size = new System.Drawing.Size(150, 47);
             this.RegisterBtn.TabIndex = 135;
             this.RegisterBtn.Text = "Register";
             this.RegisterBtn.UseVisualStyleBackColor = false;
@@ -300,9 +286,10 @@
             // 
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.panel3.BackColor = System.Drawing.Color.Maroon;
-            this.panel3.Location = new System.Drawing.Point(105, 166);
+            this.panel3.Location = new System.Drawing.Point(103, 135);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(113, 457);
+            this.panel3.Size = new System.Drawing.Size(82, 371);
             this.panel3.TabIndex = 136;
             // 
             // return_btn
@@ -310,32 +297,44 @@
             this.return_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.return_btn.BackColor = System.Drawing.Color.White;
             this.return_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.return_btn.Location = new System.Drawing.Point(8, 8);
-            this.return_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.return_btn.Location = new System.Drawing.Point(12, 12);
             this.return_btn.Name = "return_btn";
-            this.return_btn.Size = new System.Drawing.Size(99, 48);
+            this.return_btn.Size = new System.Drawing.Size(74, 39);
             this.return_btn.TabIndex = 137;
             this.return_btn.Text = "Return";
             this.return_btn.UseVisualStyleBackColor = false;
             this.return_btn.Click += new System.EventHandler(this.return_btn_Click);
             // 
+            // IT_btn
+            // 
+            this.IT_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.IT_btn.BackColor = System.Drawing.Color.Maroon;
+            this.IT_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.IT_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.IT_btn.Image = ((System.Drawing.Image)(resources.GetObject("IT_btn.Image")));
+            this.IT_btn.Location = new System.Drawing.Point(92, 33);
+            this.IT_btn.Name = "IT_btn";
+            this.IT_btn.Size = new System.Drawing.Size(102, 97);
+            this.IT_btn.TabIndex = 203;
+            this.IT_btn.UseVisualStyleBackColor = false;
+            // 
             // IT_Register
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(926, 624);
+            this.ClientSize = new System.Drawing.Size(694, 507);
+            this.Controls.Add(this.IT_btn);
             this.Controls.Add(this.return_btn);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "IT_Register";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IT_Register";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IT_Register_FormClosing);
             this.Load += new System.EventHandler(this.IT_Register_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -345,8 +344,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -366,5 +363,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button return_btn;
         private System.Windows.Forms.ComboBox yearbox;
+        private System.Windows.Forms.Button IT_btn;
     }
 }

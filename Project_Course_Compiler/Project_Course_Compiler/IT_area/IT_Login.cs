@@ -105,5 +105,10 @@ namespace Project_Course_Compiler.IT_area
         {
             Application.Exit();
         }
+
+        private void IT_Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
