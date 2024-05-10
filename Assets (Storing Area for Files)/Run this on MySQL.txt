@@ -1,0 +1,24 @@
+CREATE DATABASE VIRGIL_PCC_Database;
+
+USE VIRGIL_PCC_Database;
+
+
+CREATE TABLE Users(
+StudentId varchar(100) PRIMARY KEY,
+Fullname varchar(200),
+Department varchar(100),
+YearLevel varchar(100),
+Password varchar(200)
+);
+
+CREATE TABLE Projects (
+	Identifier INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    Created_By VARCHAR(250),
+    Title VARCHAR(250),
+	Date VARCHAR(100),
+    Description VARCHAR(600),
+    YearLevel VARCHAR(100),
+    Url VARCHAR(500),
+    Department VARCHAR(100),
+    Archive VARCHAR(50)
+);
