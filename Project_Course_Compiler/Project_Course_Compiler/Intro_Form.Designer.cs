@@ -127,6 +127,7 @@
     " recent academic resources for your course, including documents and any availabl" +
     "e files, to aid you on your project.";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 

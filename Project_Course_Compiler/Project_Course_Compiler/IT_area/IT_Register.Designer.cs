@@ -161,6 +161,7 @@
             this.yearbox.Name = "yearbox";
             this.yearbox.Size = new System.Drawing.Size(326, 36);
             this.yearbox.TabIndex = 138;
+            this.yearbox.SelectedIndexChanged += new System.EventHandler(this.yearbox_SelectedIndexChanged);
             // 
             // label3
             // 

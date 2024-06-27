@@ -110,5 +110,10 @@ namespace Project_Course_Compiler.IT_area
         {
             Application.Exit();
         }
+
+        private void yearbox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
