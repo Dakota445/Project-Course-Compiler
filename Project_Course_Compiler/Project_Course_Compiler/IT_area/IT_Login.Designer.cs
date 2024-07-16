@@ -107,7 +107,7 @@
             // 
             this.Show_pass_btn.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.Show_pass_btn.Image = ((System.Drawing.Image)(resources.GetObject("Show_pass_btn.Image")));
-            this.Show_pass_btn.Location = new System.Drawing.Point(352, 44);
+            this.Show_pass_btn.Location = new System.Drawing.Point(351, 44);
             this.Show_pass_btn.Name = "Show_pass_btn";
             this.Show_pass_btn.Size = new System.Drawing.Size(41, 32);
             this.Show_pass_btn.TabIndex = 3;
@@ -131,7 +131,7 @@
             this.tbuser.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbuser.Location = new System.Drawing.Point(96, 3);
             this.tbuser.Name = "tbuser";
-            this.tbuser.Size = new System.Drawing.Size(250, 34);
+            this.tbuser.Size = new System.Drawing.Size(249, 34);
             this.tbuser.TabIndex = 1;
             // 
             // tbpassword
@@ -141,7 +141,7 @@
             this.tbpassword.Location = new System.Drawing.Point(96, 43);
             this.tbpassword.Name = "tbpassword";
             this.tbpassword.PasswordChar = '*';
-            this.tbpassword.Size = new System.Drawing.Size(250, 34);
+            this.tbpassword.Size = new System.Drawing.Size(249, 34);
             this.tbpassword.TabIndex = 2;
             // 
             // label3
@@ -172,7 +172,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.76311F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.23689F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 66F));
             this.tableLayoutPanel1.Controls.Add(this.tbuser, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.Show_pass_btn, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
